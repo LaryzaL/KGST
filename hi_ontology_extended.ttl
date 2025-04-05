@@ -1,0 +1,1573 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hi: <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51> a owl:Ontology .
+
+hi:AICDSS a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:CareInterventionEvaluation ;
+    hi:hasEndgoal hi:AssistingMedicalProfessionals,
+        hi:ImprovingCareQuality ;
+    hi:isCapableOf hi:DecisionSupport,
+        hi:Recommendation ;
+    hi:participatesIn hi:ProvideFeedbackForImprovement,
+        hi:ReviewRecommendations ;
+    hi:processingTask hi:CareRecommendationGeneration,
+        hi:ExtractingPatientInsights ;
+    hi:requiresHumanExpertise hi:HealthcareProfessional .
+
+hi:AIMonitoring a hi:Domain .
+
+hi:AI_Based_ADM a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:VignetteBasedFairnessEvaluation ;
+    hi:hasEndgoal hi:ResponsibleDesign ;
+    hi:isCapableOf hi:DecisionMaking,
+        hi:FairnessEvaluation ;
+    hi:participatesIn hi:HumanFairnessJudgment ;
+    hi:processingTask hi:FairnessPerceptionEvaluation ;
+    hi:requiresHumanExpertise hi:HumanDecisionMakers .
+
+hi:Adaptiveness a hi:Capability,
+        owl:NamedIndividual .
+
+hi:Adult a hi:Human,
+        owl:NamedIndividual .
+
+hi:AlgorithmDesign a hi:Context ;
+    hi:hasDomain hi:AIEthics4,
+        hi:ApplicationDesign ;
+    hi:hasEthicalConsideration hi:Accountability,
+        hi:Autonomy,
+        hi:Diversity,
+        hi:Equality,
+        hi:GenderBias,
+        hi:ImplicitBias,
+        hi:Stereotypes .
+
+hi:AllAtOnce a hi:InteractionMethod .
+
+hi:AugmentedReality a hi:ProcessingMethod .
+
+hi:AutonomousDriving a hi:Context ;
+    hi:hasDomain hi:HybridIntelligence,
+        hi:MultiAgentSystems .
+
+hi:AutonomousDriving2 a hi:Context ;
+    hi:hasDomain hi:AIEthics4,
+        hi:ApplicationDesign ;
+    hi:hasEthicalConsideration hi:Accountability,
+        hi:Autonomy .
+
+hi:BA_BRM a hi:MachineLearningMethod,
+        hi:StatisticalMethod .
+
+hi:BDI a hi:Capability,
+        owl:NamedIndividual .
+
+hi:CaptureTacitKnowledge a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid3 .
+
+hi:CarePlanningOptimization a hi:Context ;
+    hi:hasDomain hi:Healthcare2,
+        hi:ProfessionalCarePlanning ;
+    hi:hasEthicalConsideration hi:EnsureTransparancy3,
+        hi:EnsuringPrivacy4 .
+
+hi:CategorizingAI a hi:ProcessingTask ;
+    hi:followsFramework hi:EASY_AI_Framework ;
+    hi:usesProcessingMethod hi:OntologicalTransformation .
+
+hi:Child a hi:Human,
+        owl:NamedIndividual .
+
+hi:Collaboration a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Non-cooperative2 .
+
+hi:Collaboration-based a hi:InteractionMethod,
+        owl:NamedIndividual .
+
+hi:CollaborativePursuitOfGoal a hi:Endgoal .
+
+hi:Collaborativeness a hi:Capability,
+        owl:NamedIndividual .
+
+hi:Communication a hi:Capability,
+        owl:NamedIndividual .
+
+hi:Contribution-based a hi:InteractionMethod,
+        owl:NamedIndividual .
+
+hi:CreateSharedKnowledgeEnvironment a hi:Endgoal .
+
+hi:CreationBeforeManipulation a hi:InteractionMethod .
+
+hi:CriminalJustice a hi:Context ;
+    hi:hasDomain hi:MachineLearningFairness,
+        hi:PredictiveDecisionMaking ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy3,
+        hi:EnsuringTransparency .
+
+hi:DataScientist a hi:Human ;
+    hi:hasEndgoal hi:AlgorithmicJustice,
+        hi:EnsureFairness3,
+        hi:EnsureTransparancy7 ;
+    hi:isCapableOf hi:DecisionMaking5,
+        hi:Prepare,
+        hi:Reflection2 ;
+    hi:participatesIn hi:CriticalThinking,
+        hi:Ideate,
+        hi:Refine .
+
+hi:DatasetBiasInvestigation a hi:Context ;
+    hi:hasDomain hi:HumanComputerInteraction ;
+    hi:hasEthicalConsideration hi:EnsureFairness,
+        hi:EnsureTransparancy2 .
+
+hi:DecisionMaking4 a hi:Capability .
+
+hi:DecisionMakingContexts a hi:Context ;
+    hi:hasDomain hi:AIEthics3,
+        hi:FairnessInAI2,
+        hi:HumanAITust ;
+    hi:hasEthicalConsideration hi:AvoidBias4,
+        hi:EnsureFairness2,
+        hi:EnsureHumanOversight,
+        hi:EnsureTransparancy6 .
+
+hi:DecisionSupport2 a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Non-cooperative2 .
+
+hi:DecisionSupportSystem2 a hi:Domain .
+
+hi:DeckOfCards a hi:Tool .
+
+hi:Designer a hi:Human,
+        owl:NamedIndividual ;
+    hi:hasEndgoal hi:EnhanceUserControl2,
+        hi:EnsureFairness3,
+        hi:EnsureTransparancy7,
+        hi:ResponsibleDesign2 ;
+    hi:isCapableOf hi:DecisionMaking5,
+        hi:Prepare,
+        hi:Reflection2 ;
+    hi:participatesIn hi:CriticalThinking,
+        hi:Ideate,
+        hi:Refine .
+
+hi:EducationalAdmissions a hi:Context ;
+    hi:hasDomain hi:MachineLearningFairness,
+        hi:PredictiveDecisionMaking ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy3,
+        hi:EnsuringTransparency .
+
+hi:Engineer a hi:Human ;
+    hi:hasEndgoal hi:EnsureTransparancy7,
+        hi:ResponsibleDesign2 ;
+    hi:isCapableOf hi:DecisionMaking5,
+        hi:Prepare,
+        hi:Reflection2 ;
+    hi:participatesIn hi:CriticalThinking,
+        hi:Ideate,
+        hi:Refine .
+
+hi:EnhanceHumanPerformance a hi:Endgoal .
+
+hi:EnhancingCollaborativeDecisionMaking2 a hi:Endgoal .
+
+hi:EnhancingHumanUnderstanding a hi:Endgoal .
+
+hi:EnsuringEquitableAccess a hi:Endgoal .
+
+hi:EnsuringEquitableUtilization a hi:Endgoal .
+
+hi:EquityScoringAlgorithm a hi:EvaluationMethod .
+
+hi:ExpertAnnotator a hi:Human ;
+    hi:evaluatedBy hi:BiasAssessmentInLabeling ;
+    hi:hasEndgoal hi:ImprovingAlgorithmicFairness ;
+    hi:isCapableOf hi:BiasAwareness,
+        hi:FairnessEvaluation ;
+    hi:participatesIn hi:ComparativeAnnotation ;
+    hi:processingTask hi:SubjectiveBiasMeasurement .
+
+hi:Explainability a hi:InteractionTask,
+        owl:NamedIndividual .
+
+hi:ExplainingAI a hi:ProcessingTask ;
+    hi:followsFramework hi:EASY_AI_Framework ;
+    hi:usesProcessingMethod hi:DataTransformation .
+
+hi:FacialAnnotation a hi:Context ;
+    hi:hasDomain hi:MLAnnotationBias ;
+    hi:hasEthicalConsideration hi:AvoidBias2 .
+
+hi:FairnessMonitoringFL a hi:Context ;
+    hi:hasDomain hi:AIEthics,
+        hi:FairnessInAI,
+        hi:FederatedLearningDomain,
+        hi:PrivacyPreservingAI ;
+    hi:hasEthicalConsideration hi:AvoidBias3,
+        hi:EnsuringPrivacy5 .
+
+hi:Generating a hi:ProcessingTask,
+        owl:NamedIndividual .
+
+hi:GestureRecognition a hi:Capability ;
+    hi:usesTool hi:MetaInteractionSDK .
+
+hi:HOLDA a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:DemographicParity,
+        hi:EqualOpportunity,
+        hi:EqualizedOdds,
+        hi:FairnessEvaluationMetrics ;
+    hi:hasEndgoal hi:BalancingPerformanceFairness,
+        hi:BiasPrevention,
+        hi:ImprovingFLFairness ;
+    hi:isCapableOf hi:FairnessMonitoring ;
+    hi:participatesIn hi:BiasPropagationEvaluation,
+        hi:FairModelValidation ;
+    hi:processingTask hi:BiasTracking,
+        hi:DecentralizedModelTraining .
+
+hi:Hiring a hi:Context ;
+    hi:hasDomain hi:MachineLearningFairness,
+        hi:PredictiveDecisionMaking ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy3,
+        hi:EnsuringTransparency .
+
+hi:HumanAgent a hi:Human ;
+    hi:collaboratesWith hi:AISystem ;
+    hi:isCapableOf hi:AllowAction,
+        hi:DecisionMaking2,
+        hi:DefiningExpectations,
+        hi:MonitoringAI,
+        hi:OverrideAction ;
+    hi:participatesIn hi:OutputComparison .
+
+hi:HumanCenteredObjectRecognition a hi:Context ;
+    hi:hasDomain hi:ComputerVision,
+        hi:HierarchicalClassification,
+        hi:HumanCenteredAI,
+        hi:VisualSemantics .
+
+hi:HumanLabeler a hi:Human ;
+    hi:evaluatedBy hi:BiasAssessmentInLabeling ;
+    hi:hasEndgoal hi:LabelerBias,
+        hi:UnbiasedDatasetCreation ;
+    hi:isCapableOf hi:FacialAttributeAssessment ;
+    hi:participatesIn hi:LabelerPerceptionAssessment ;
+    hi:processingTask hi:FacialImageAnnotation .
+
+hi:HumanOperator a hi:Human ;
+    hi:collaboratesWith hi:UAVs ;
+    hi:evaluatedBy hi:BehavioralEvaluation,
+        hi:PhysiologicalEvaluation,
+        hi:SubjectiveEvaluation ;
+    hi:isCapableOf hi:PerformanceMonitoring ;
+    hi:participatesIn hi:AdjustingInteraction,
+        hi:TaskDelegation2 ;
+    hi:processingTask hi:BehavioralMonitoring,
+        hi:ModelHCIDynamics,
+        hi:OfflineLearning .
+
+hi:Hybrid a hi:ProcessingMethod,
+        owl:NamedIndividual .
+
+hi:HybridAgent a hi:ArtificialAgent ;
+    hi:collaboratesWith hi:DomainExpert ;
+    hi:evaluatedBy hi:AssessingEffectiveness,
+        hi:AssessingEfficiency,
+        hi:AssessingTrustworthiness,
+        hi:ParticipatoryEvaluation ;
+    hi:hasEndgoal hi:ImproveDecisionAccuracy ;
+    hi:isCapableOf hi:DataProcessing,
+        hi:KnowledgeAggregation,
+        hi:SolutionGeneration ;
+    hi:participatesIn hi:DecisionSupport ;
+    hi:processingInformation hi:CaseKnowledgeGraph,
+        hi:DomainKnowledgeGraph ;
+    hi:processingTask hi:KnowledgeEngineering .
+
+hi:HybridCentaur a hi:ArtificialAgent ;
+    hi:collaboratesWith hi:HumanAgent2 ;
+    hi:evaluatedBy hi:OverestimationOfProbabilities,
+        hi:TimeInconsistentPreferences ;
+    hi:followsFramework hi:HuMaCe ;
+    hi:isCapableOf hi:DecisionSupport5,
+        hi:GoalDetection ;
+    hi:participatesIn hi:TaskDelegation,
+        hi:TaskExecutionWithOverrides ;
+    hi:processingTask hi:ParticleMaintenance,
+        hi:Perturbation,
+        hi:Recursion,
+        hi:ReinvigoratingParticleSets,
+        hi:SolvingSTMs,
+        hi:TrainingNeuralNetworks .
+
+hi:HybridIntelligenceCollaboration a hi:Context ;
+    hi:hasDomain hi:AIEthics2,
+        hi:ComputationalTheoryOfMind,
+        hi:HumanAIInteraction ;
+    hi:hasEthicalConsideration hi:EnsureTransparancy5 .
+
+hi:HybridIntelligenceCollaboration2 a hi:Context ;
+    hi:hasDomain hi:HybridIntelligence,
+        hi:MultiAgentSystems .
+
+hi:ImproveDecisionEfficiency a hi:Endgoal .
+
+hi:ImproveProductivity a hi:Endgoal .
+
+hi:ImprovedHumanMachineAlignment2 a hi:Endgoal .
+
+hi:ImprovingAIInterpretability2 a hi:EndGoal .
+
+hi:Intelligent_System a hi:ArtificialAgent,
+        owl:NamedIndividual .
+
+hi:InterpersonalActivityGraph a hi:KnowledgeGraphs .
+
+hi:IntuitiveVisualLanguage a hi:Context ;
+    hi:hasDomain hi:AIExplainability,
+        hi:HumanAIInteraction,
+        hi:Ontologies,
+        hi:SemanticTechnologies ;
+    hi:hasEthicalConsideration hi:EnsureTransparancy4 .
+
+hi:JobMatching a hi:Context ;
+    hi:hasDomain hi:HumanResources,
+        hi:JobVacancySelection,
+        hi:Recruitment ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy2,
+        hi:UnbiasedSystem .
+
+hi:JobMatchingAI a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:FeedbackQuestionnaire ;
+    hi:hasEndgoal hi:ImproveJobMatching ;
+    hi:isCapableOf hi:EvaluateSkillsAndValues,
+        hi:MatchJobToJobseeker ;
+    hi:participatesIn hi:Evaluation,
+        hi:ProvideFeedback ;
+    hi:processingTask hi:CalculateMatchScores,
+        hi:CosineSimilarity,
+        hi:ParetoOptimality .
+
+hi:KnowledgeGraphManagement a hi:Context ;
+    hi:hasDomain hi:Business,
+        hi:Education,
+        hi:Healthcare ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy .
+
+hi:KnowledgeRepresentation a hi:Domain .
+
+hi:Learning a hi:ProcessingTask,
+        owl:NamedIndividual .
+
+hi:LoanApproval a hi:Context ;
+    hi:hasDomain hi:MachineLearningFairness,
+        hi:PredictiveDecisionMaking ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy3,
+        hi:EnsuringTransparency .
+
+hi:MUM_T_Missions a hi:Context ;
+    hi:hasDomain hi:AIMonitoring2,
+        hi:Aviation,
+        hi:HumanRobotInteraction .
+
+hi:MachineLearning owl:sameAs dbr:Machine_learning .
+
+hi:MiroDigitalCollaborationPlatform a hi:Tool .
+
+hi:Multimodal a hi:InteractionMethod,
+        owl:NamedIndividual .
+
+hi:Neuro-symbolic a hi:ProcessingMethod,
+        owl:NamedIndividual .
+
+hi:Non-cooperative a hi:InteractionMethod,
+        owl:NamedIndividual .
+
+hi:NormMonitoring a hi:Capability .
+
+hi:ObjectGeneration a hi:Capability .
+
+hi:OpenEndedDecisionMaking a hi:Context ;
+    hi:hasDomain hi:ClimateChangeAdaptation,
+        hi:ClimateChangeRiskManagement,
+        hi:MedicalDiagnostics ;
+    hi:hasEthicalConsideration hi:AvoidBias,
+        hi:EnsureTransparancy .
+
+hi:OrganizationalManagement a hi:Context ;
+    hi:hasDomain hi:Business,
+        hi:Education,
+        hi:Healthcare ;
+    hi:hasEthicalConsideration hi:EnsuringPrivacy .
+
+hi:PowerGridAIAssistant a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:PerformanceTest ;
+    hi:hasEndgoal hi:EnhanceDecisionMaking,
+        hi:ImproveSituationalAwareness ;
+    hi:isCapableOf hi:DataProcessing2,
+        hi:Recommendation ;
+    hi:participatesIn hi:DecisionSupport3 ;
+    hi:processingTask hi:AssistDecisionMaking,
+        hi:IdentifyingIssues,
+        hi:Monitoring,
+        hi:ProvidePredictiveInsights,
+        hi:SuggestingActions .
+
+hi:PowerGridManagement a hi:Context ;
+    hi:hasDomain hi:DecisionSupportSystem,
+        hi:HumanCenteredAI2,
+        hi:HumanMachineInteraction ;
+    hi:hasEthicalConsideration hi:AvoidingOverReliance,
+        hi:Deskilling,
+        hi:UnbiasedSystem2 .
+
+hi:Question-Answering a hi:InteractionTask,
+        owl:NamedIndividual .
+
+hi:Researcher a hi:Human ;
+    hi:hasEndgoal hi:AlgorithmicJustice,
+        hi:Explicability,
+        hi:ResponsibleDesign2 ;
+    hi:isCapableOf hi:DecisionMaking5,
+        hi:Prepare,
+        hi:Reflection2 ;
+    hi:participatesIn hi:CriticalThinking,
+        hi:Ideate,
+        hi:Refine .
+
+hi:Responsibility a hi:Capability,
+        owl:NamedIndividual .
+
+hi:Robot a hi:ArtificialAgent,
+        owl:NamedIndividual .
+
+hi:SearchAndRescue_Missions a hi:Context ;
+    hi:hasDomain hi:AIMonitoring2,
+        hi:Aviation,
+        hi:HumanRobotInteraction .
+
+hi:SemanticGlyphs a hi:Capability .
+
+hi:SemiAutomatedDecisionMaking a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:VignetteBasedFairnessEvaluation ;
+    hi:hasEndgoal hi:ResponsibleDesign ;
+    hi:isCapableOf hi:DecisionMaking,
+        hi:FairnessEvaluation ;
+    hi:participatesIn hi:HumanFairnessJudgment ;
+    hi:processingTask hi:FairnessPerceptionEvaluation .
+
+hi:Single-agent a hi:InteractionMethod,
+        owl:NamedIndividual .
+
+hi:SocioTechnical a hi:Domain .
+
+hi:SpeechRecognition a hi:Capability ;
+    hi:usesTool hi:WitAI .
+
+hi:Statistical a hi:ProcessingMethod,
+        owl:NamedIndividual .
+
+hi:StepByStep a hi:InteractionMethod .
+
+hi:StoryboardingTemplate a hi:Tool .
+
+hi:SubjectMatterExpert a hi:Human ;
+    hi:collaboratesWith hi:AIDecisionTool ;
+    hi:isCapableOf hi:AnalogicalThinking,
+        hi:DecisionMaking3,
+        hi:Reflection ;
+    hi:participatesIn hi:Adjunction,
+        hi:AnalyticalOutputInteraction .
+
+hi:Symbolic a hi:ProcessingMethod,
+        owl:NamedIndividual .
+
+hi:SymbolicRepresentation a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:SymbolicGraphicalInterface .
+
+hi:SymbolicRepresentationEvaluation a hi:EvaluationMethod .
+
+hi:Teacher a hi:Human,
+        owl:NamedIndividual .
+
+hi:ToMAgent a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:ToMBasedEvaluation ;
+    hi:hasEndgoal hi:EnhancingCollaborativeDecisionMaking,
+        hi:ImprovingHumanAIAlignment ;
+    hi:isCapableOf hi:DecisionMaking,
+        hi:Reasoning ;
+    hi:participatesIn hi:ConsensusBuilding,
+        hi:DisagreementResolution,
+        hi:HumanAgentCollaboration ;
+    hi:processingTask hi:AdaptiveDecisionMaking,
+        hi:ExplainingHumanBehavior,
+        hi:PredictingHumanDecisions .
+
+hi:Transforming a hi:ProcessingTask,
+        owl:NamedIndividual .
+
+hi:Transparency a hi:Capability,
+        owl:NamedIndividual .
+
+hi:User a hi:Human ;
+    hi:participatesIn hi:ObjectCreationManagement,
+        hi:SpatialManagement ;
+    hi:usesTool hi:HandController,
+        hi:HybridWandTabletInterface,
+        hi:Keyboard .
+
+hi:VRApplication a hi:ArtificialAgent ;
+    hi:hasEndgoal hi:EnhanceControlFlow,
+        hi:EnhanceUserControl ;
+    hi:participatesIn hi:ObjectCreationManagement,
+        hi:SpatialManagement ;
+    hi:processingTask hi:GenerateMeshes,
+        hi:GenerateObjects,
+        hi:GraphGeneration,
+        hi:TranslatingVoiceCommands ;
+    hi:usesTool hi:MetaInteractionSDK,
+        hi:WitAI .
+
+hi:VideoGames a hi:Context ;
+    hi:hasDomain hi:GenerativeAI,
+        hi:VirtualRealityApplications .
+
+hi:VirtualGardenDesign a hi:Context ;
+    hi:hasDomain hi:GenerativeAI,
+        hi:VirtualRealityApplications .
+
+hi:VirtualInteriorDesign a hi:Context ;
+    hi:hasDomain hi:GenerativeAI,
+        hi:VirtualRealityApplications .
+
+hi:VirtualUrbanPlanningDesign a hi:Context ;
+    hi:hasDomain hi:GenerativeAI,
+        hi:VirtualRealityApplications .
+
+hi:VisualRecognition a hi:Context ;
+    hi:hasDomain hi:ComputerVision,
+        hi:HierarchicalClassification,
+        hi:HumanCenteredAI,
+        hi:VisualSemantics .
+
+hi:VisualRecognitionSystem a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:AssessingEffectiveness2,
+        hi:MeasuringUserMachineAlginment ;
+    hi:hasEndgoal hi:ImprovedHumanMachineAlignment,
+        hi:ReducingSemanticGaps ;
+    hi:isCapableOf hi:HierarchicalObjectRecognition,
+        hi:UserAlignedRecognition ;
+    hi:participatesIn hi:IncrementalLearning ;
+    hi:processingTask hi:Categorizing,
+        hi:FeedbackProcessing,
+        hi:Identifying .
+
+hi:VisualizingAI a hi:ProcessingTask ;
+    hi:followsFramework hi:EASY_AI_Framework ;
+    hi:usesProcessingMethod hi:BoxologyPatterns .
+
+hi:collaboratesWith a owl:SymmetricProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:Actor .
+
+hi:context a owl:ObjectProperty ;
+    rdfs:domain hi:Scenario ;
+    rdfs:range hi:Context .
+
+hi:domain a owl:ObjectProperty ;
+    rdfs:domain hi:Scenario ;
+    rdfs:range hi:Domain .
+
+hi:endgoal a owl:ObjectProperty ;
+    rdfs:domain hi:Scenario ;
+    rdfs:range hi:Endgoal .
+
+hi:evaluatedBy a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:EvaluationMethod .
+
+hi:followsFramework a owl:ObjectProperty ;
+    rdfs:range hi:Framework .
+
+hi:hasDomain a owl:ObjectProperty ;
+    rdfs:domain hi:Context ;
+    rdfs:range hi:Domain .
+
+hi:hasEndgoal a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:EndGoal .
+
+hi:hasEthicalConsideration a owl:ObjectProperty ;
+    rdfs:domain hi:Context,
+        hi:Scenario ;
+    rdfs:range hi:EthicalConsideration .
+
+hi:hasGoal a owl:ObjectProperty ;
+    rdfs:domain hi:ArtificialAgent ;
+    rdfs:range hi:Endgoal ;
+    owl:inverseOf <http://www.iri.upc.edu/groups/perception/OCRA/ont/ocra.owl#isGoalOf> .
+
+hi:hasInteraction a owl:ObjectProperty ;
+    rdfs:domain hi:Scenario ;
+    rdfs:range hi:Interaction .
+
+hi:inScenario a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:Scenario ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+hi:informationMethod a owl:ObjectProperty ;
+    rdfs:domain hi:InformationProcessing ;
+    rdfs:range hi:ProcessingMethod .
+
+hi:interactingAgent a owl:ObjectProperty ;
+    rdfs:domain hi:Interaction ;
+    rdfs:range hi:Actor .
+
+hi:interactionMethod a owl:ObjectProperty ;
+    rdfs:domain hi:Interaction ;
+    rdfs:range hi:InteractionMethod .
+
+hi:interactionTask a owl:ObjectProperty ;
+    rdfs:domain hi:Interaction ;
+    rdfs:range hi:InteractionTask .
+
+hi:isCapableOf a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:Capability .
+
+hi:participatesIn a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:InteractionTask .
+
+hi:processingInformation a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:InformationProcessing .
+
+hi:processingTask a owl:ObjectProperty ;
+    rdfs:domain hi:Actor,
+        hi:InformationProcessing ;
+    rdfs:range hi:ProcessingTask .
+
+hi:requiresHumanExpertise a owl:ObjectProperty ;
+    rdfs:domain hi:ArtificialAgent ;
+    rdfs:range hi:Human .
+
+hi:usesInteractionMethod a owl:ObjectProperty ;
+    rdfs:domain hi:InteractionTask ;
+    rdfs:range hi:InteractionMethod .
+
+hi:usesKG a owl:TransitiveProperty ;
+    rdfs:domain hi:ProcessingTask ;
+    rdfs:range hi:KnowledgeGraphs .
+
+hi:usesMetric a owl:ObjectProperty ;
+    rdfs:domain hi:EvaluationMethod ;
+    rdfs:range hi:Metric .
+
+hi:usesProcessingMethod a owl:ObjectProperty ;
+    rdfs:domain hi:ProcessingTask ;
+    rdfs:range hi:ProcessingMethod .
+
+hi:usesTool a owl:ObjectProperty ;
+    rdfs:range hi:Tool .
+
+hi:AIDecisionTool a hi:ArtificialAgent ;
+    hi:evaluatedBy hi:SimilarityMatching ;
+    hi:hasEndgoal hi:ConstructiveDistrust,
+        hi:CostEffectiveness,
+        hi:ImprovedSatisfaction,
+        hi:ImprovedSustainability,
+        hi:ImprovedUsability,
+        hi:StandardizedHCIProtocols ;
+    hi:isCapableOf hi:Caution,
+        hi:Continuity,
+        hi:DecisionSupport4,
+        hi:Multiplicity,
+        hi:Reflectiveness,
+        hi:Vagueness ;
+    hi:participatesIn hi:Adjunction,
+        hi:AnalyticalOutputInteraction ;
+    hi:processingTask hi:AdaptiveLearning,
+        hi:CounterFactualReasoning .
+
+hi:AIEthics a hi:SocialAI .
+
+hi:AIEthics2 a hi:SocialAI .
+
+hi:AIEthics3 a hi:SocialAI .
+
+hi:AIExplainability a hi:Domain .
+
+hi:AISystem a hi:ArtificialAgent ;
+    hi:collaboratesWith hi:MonitoringSystem ;
+    hi:followsFramework hi:MonitoringFramework ;
+    hi:processingTask hi:DataTransformation,
+        hi:DeductiveReasoning .
+
+hi:AbstractionBasedToM a hi:ProcessingMethod .
+
+hi:AdaptiveDecisionMaking a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:HeuristicReasoning .
+
+hi:AdaptiveInteractionControl a hi:Capability .
+
+hi:AdaptiveLearning a hi:LearningTask ;
+    hi:usesProcessingMethod hi:CorrelativeModelling,
+        hi:EnsembleLearning .
+
+hi:AlgorithmicLabelCorrection a hi:ProcessingMethod .
+
+hi:AllowAction a hi:Capability .
+
+hi:AnalogicalThinking a hi:Capability .
+
+hi:AssessingEffectiveness a hi:EvaluationMethod .
+
+hi:AssessingEffectiveness2 a hi:EvaluationMethod .
+
+hi:AssessingEfficiency a hi:EvaluationMethod .
+
+hi:AssessingTrustworthiness a hi:EvaluationMethod .
+
+hi:AssistDecisionMaking a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid5 .
+
+hi:AssistingMedicalProfessionals a hi:Endgoal .
+
+hi:AvoidBias a hi:EthicalConsideration .
+
+hi:AvoidBias2 a hi:EthicalConsideration .
+
+hi:AvoidBias3 a hi:EthicalConsideration .
+
+hi:AvoidBias4 a hi:EthicalConsideration .
+
+hi:AvoidingOverReliance a hi:EthicalConsideration .
+
+hi:BalancingPerformanceFairness a hi:Endgoal .
+
+hi:BehavioralEvaluation a hi:EvaluationMethod ;
+    hi:usesMetric hi:PerformanceScore .
+
+hi:BeliefAlignment a hi:InteractionMethod .
+
+hi:BiasAwareness a hi:Capability .
+
+hi:BiasPrevention a hi:Endgoal .
+
+hi:BiasPropagationEvaluation a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:FairnessAssessment .
+
+hi:BiasTracking a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:SyntheticDataAugmentation .
+
+hi:BoxologyPatterns a hi:ProcessingMethod .
+
+hi:CalculateMatchScores a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid4 .
+
+hi:CareInterventionEvaluation a hi:EvaluationMethod .
+
+hi:CareRecommendationGeneration a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:NLP .
+
+hi:Categorizing a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid3 .
+
+hi:Caution a hi:Capability .
+
+hi:ClimateChangeAdaptation a hi:Domain .
+
+hi:ClimateChangeRiskManagement a hi:Domain .
+
+hi:CognitiveForcingFunctions a hi:InteractionMethod .
+
+hi:Collaboration-based2 a hi:InteractionMethod .
+
+hi:Collaboration-based3 a hi:InteractionMethod .
+
+hi:ComparativeAnnotation a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:OnlineSurveyAnnotation .
+
+hi:ComputationalRationality a hi:ProcessingMethod .
+
+hi:ComputationalTheoryOfMind a hi:Domain .
+
+hi:ConformalPrediction a hi:StatisticalMethod .
+
+hi:ConsensusBuilding a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:ToMEnabledReasoning .
+
+hi:ConstructiveDistrust a hi:Endgoal .
+
+hi:Continuity a hi:Capability .
+
+hi:Contribution-based2 a hi:InteractionMethod .
+
+hi:CosineSimilarity a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid4 .
+
+hi:CostEffectiveness a hi:Endgoal .
+
+hi:CounterFactualReasoning a hi:ReasoningTask ;
+    hi:usesProcessingMethod hi:ConformalPrediction,
+        hi:CorrelativeModelling .
+
+hi:CrowdsourcedLabelling a hi:ProcessingMethod .
+
+hi:DataProcessing a hi:Capability ;
+    owl:sameAs dbr:Data_processing .
+
+hi:DataProcessing2 a hi:Capability .
+
+hi:DecentralizedModelTraining a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:FederatedLearning2 .
+
+hi:DecisionComparison a hi:ProcessingMethod .
+
+hi:DecisionMaking2 a hi:Capability .
+
+hi:DecisionMaking3 a hi:capability .
+
+hi:DecisionSupport3 a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Collaboration-based4 .
+
+hi:DecisionSupport4 a hi:capability .
+
+hi:DecisionSupport5 a hi:Capability .
+
+hi:DecisionSupportSystem a hi:Domain .
+
+hi:DeductiveReasoning a hi:ReasoningTask ;
+    hi:usesProcessingMethod hi:SemanticModelling .
+
+hi:DefiningExpectations a hi:Capability .
+
+hi:DemographicParity a hi:FairnessEvaluation .
+
+hi:DesignFictionToolkit a hi:Framework .
+
+hi:Deskilling a hi:EthicalConsideration .
+
+hi:Diffusion a hi:ProcessingMethod .
+
+hi:DisagreementResolution a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:ToMEnabledReasoning .
+
+hi:Diversity a hi:EthicalConsideration .
+
+hi:DomainExpert a hi:Human,
+        foaf:Person .
+
+hi:EngagementScale a hi:Metric .
+
+hi:EnhanceControlFlow a hi:Endgoal .
+
+hi:EnhanceDecisionMaking a hi:Endgoal .
+
+hi:EnhanceUserControl a hi:Endgoal .
+
+hi:EnhancingCollaborativeDecisionMaking a hi:Endgoal .
+
+hi:EnsembleLearning a hi:MachineLearningMethod .
+
+hi:EnsureFairness a hi:EthicalConsideration .
+
+hi:EnsureFairness2 a hi:EthicalConsideration .
+
+hi:EnsureHumanOversight a hi:EthicalConsideration .
+
+hi:EnsureTransparancy a hi:EthicalConsideration .
+
+hi:EnsureTransparancy2 a hi:EthicalConsideration .
+
+hi:EnsureTransparancy3 a hi:EthicalConsideration .
+
+hi:EnsureTransparancy4 a hi:EthicalConsideration .
+
+hi:EnsureTransparancy5 a hi:EthicalConsideration .
+
+hi:EnsureTransparancy6 a hi:EthicalConsideration .
+
+hi:EnsuringPrivacy2 a hi:EthicalConsideration .
+
+hi:EnsuringPrivacy4 a hi:EthicalConsideration .
+
+hi:EnsuringPrivacy5 a hi:EthicalConsideration .
+
+hi:EqualOpportunity a hi:FairnessEvaluation .
+
+hi:Equality a hi:EthicalConsideration .
+
+hi:EqualizedOdds a hi:FairnessEvaluation .
+
+hi:EthicalReasoning a hi:Capability .
+
+hi:EvaluateSkillsAndValues a hi:Capability .
+
+hi:Evaluation a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Contribution-based3 .
+
+hi:ExplainingHumanBehavior a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:SocialRoleModeling .
+
+hi:Explicability a hi:EndGoal .
+
+hi:FacialAttributeAssessment a hi:Capability .
+
+hi:FacialImageAnnotation a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:CrowdsourcedLabelling .
+
+hi:FairModelValidation a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:FairnessAssessment .
+
+hi:FairnessEvaluationMetrics a hi:FairnessEvaluation .
+
+hi:FairnessInAI a hi:SocialAI .
+
+hi:FairnessInAI2 a hi:SocialAI .
+
+hi:FairnessMonitoring a hi:Capability .
+
+hi:FederatedLearning a hi:ProcessingMethod .
+
+hi:FederatedLearning2 a hi:ProcessingMethod .
+
+hi:FederatedLearningDomain a hi:Domain .
+
+hi:FeedbackProcessing a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid3 .
+
+hi:FeedbackQuestionnaire a hi:EvaluationMethod .
+
+hi:Flagging a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:StatisticalModelling .
+
+hi:GANs a hi:MachineLearningMethod .
+
+hi:GenderBias a hi:EthicalConsideration .
+
+hi:GenerateMeshes a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Diffusion .
+
+hi:GenerateObjects a hi:GenerationTask ;
+    hi:usesProcessingMethod hi:GANs .
+
+hi:GoalDetection a hi:Capability .
+
+hi:GraphGeneration a hi:GenerationTask ;
+    hi:usesKG hi:SemanticSceneGraph ;
+    hi:usesProcessingMethod hi:VirtualReality ;
+    hi:usesTool hi:MetaInteractionSDK .
+
+hi:HandController a hi:Tool .
+
+hi:Healthcare2 a hi:Domain .
+
+hi:HealthcareProfessional a hi:Human ;
+    hi:participatesIn hi:ProvideFeedbackForImprovement,
+        hi:ReviewRecommendations ;
+    hi:processingTask hi:ExtractingPatientInsights .
+
+hi:HeartRate a hi:Metric .
+
+hi:HeartRateVariability a hi:Metric .
+
+hi:HeuristicReasoning a hi:ProcessingMethod .
+
+hi:HierarchicalObjectRecognition a hi:Capability .
+
+hi:HuMaCe a hi:Framework .
+
+hi:HumanAITust a hi:SocialAI .
+
+hi:HumanAgent2 a hi:Human ;
+    hi:participatesIn hi:TaskDelegation,
+        hi:TaskExecutionWithOverrides ;
+    hi:processingTask hi:ParticleMaintenance,
+        hi:Perturbation,
+        hi:SolvingSTMs .
+
+hi:HumanAgentCollaboration a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:ToMEnabledReasoning .
+
+hi:HumanCenteredAI2 a hi:Domain .
+
+hi:HumanComputerInteraction a hi:Domain .
+
+hi:HumanDecisionMakers a hi:Human ;
+    hi:evaluatedBy hi:VignetteBasedFairnessEvaluation ;
+    hi:hasEndgoal hi:ResponsibleDesign ;
+    hi:isCapableOf hi:DecisionMaking,
+        hi:EthicalReasoning,
+        hi:FairnessEvaluation ;
+    hi:participatesIn hi:HumanFairnessJudgment ;
+    hi:processingTask hi:FairnessPerceptionEvaluation .
+
+hi:HumanMachineInteraction a hi:Domain ;
+    owl:sameAs dbr:Human-Computer_Interaction .
+
+hi:HumanResources a hi:Domain .
+
+hi:Hybrid2 a hi:ProcessingMethod .
+
+hi:HybridWandTabletInterface a hi:tool .
+
+hi:ISA a hi:Metric .
+
+hi:Identifying a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid3 .
+
+hi:IdentifyingIssues a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid5 .
+
+hi:ImplicitBias a hi:EthicalConsideration .
+
+hi:ImproveDecisionAccuracy a hi:Endgoal .
+
+hi:ImproveJobMatching a hi:Endgoal .
+
+hi:ImproveSituationalAwareness a hi:Endgoal .
+
+hi:ImprovedHumanMachineAlignment a hi:Endgoal .
+
+hi:ImprovedSatisfaction a hi:Endgoal .
+
+hi:ImprovedSustainability a hi:Endgoal .
+
+hi:ImprovedUsability a hi:Endgoal .
+
+hi:ImprovingAIInterpretability a hi:Endgoal .
+
+hi:ImprovingAlgorithmicFairness a hi:Endgoal .
+
+hi:ImprovingCareQuality a hi:Endgoal .
+
+hi:ImprovingFLFairness a hi:Endgoal .
+
+hi:ImprovingHumanAIAlignment a hi:Endgoal .
+
+hi:IncrementalLearning a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Collaboration-based3,
+        hi:Contribution-based2 .
+
+hi:JobVacancySelection a hi:Domain .
+
+hi:Keyboard a hi:Tool .
+
+hi:KnowledgeAggregation a hi:Capability .
+
+hi:KnowledgeEngineering a hi:ProcessingTask ;
+    hi:usesKG hi:CaseKnowledgeGraph,
+        hi:DomainKnowledgeGraph ;
+    hi:usesProcessingMethod hi:Hybrid2 .
+
+hi:LabelerBias a hi:Endgoal .
+
+hi:LabelerPerceptionAssessment a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:OnlineSurveyAnnotation .
+
+hi:MLAnnotationBias a hi:Domain .
+
+hi:MachineLearningClassifiers a hi:MachineLearningMethod .
+
+hi:MarkovModels a hi:StatisticalMethod .
+
+hi:MatchJobToJobseeker a hi:Capability .
+
+hi:MeasuringUserMachineAlginment a hi:EvaluationMethod .
+
+hi:MedicalDiagnostics a hi:Domain ;
+    owl:sameAs dbr:Medical_diagnosis .
+
+hi:MoH_Model a hi:InteractionMethod .
+
+hi:Monitoring a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid5 .
+
+hi:MonitoringFramework a hi:Framework .
+
+hi:MonitoringSystem a hi:ArtificialAgent ;
+    hi:hasEndgoal hi:ImprovingAIInterpretability ;
+    hi:isCapableOf hi:MonitoringAI ;
+    hi:participatesIn hi:OutputComparison ;
+    hi:processingTask hi:Flagging .
+
+hi:MultiAgentModel a hi:InteractionMethod .
+
+hi:Multiplicity a hi:Capability .
+
+hi:NASA_TLX a hi:Metric .
+
+hi:NLP a hi:ProcessingMethod .
+
+hi:NeuralNetworkParameterization a hi:ProcessingMethod .
+
+hi:ObjectiveTaskModels a hi:SemanticMethod .
+
+hi:OfflineLearning a hi:LearningTask ;
+    hi:usesProcessingMethod hi:MachineLearningClassifiers .
+
+hi:OnlineLearning a hi:LearningTask ;
+    hi:usesProcessingMethod hi:MentalWorkloadEstimation,
+        hi:POMDPs2 .
+
+hi:OntologicalTransformation a hi:ProcessingMethod .
+
+hi:Ontologies a hi:Domain .
+
+hi:OverestimationOfProbabilities a hi:EvaluationMethod ;
+    hi:usesMetric hi:AvgSumOfRewards,
+        hi:InteractionCost .
+
+hi:OverrideAction a hi:Capability .
+
+hi:POMDPPolicy a hi:InteractionMethod .
+
+hi:POMDPs a hi:MachineLearningMethod,
+        hi:StatisticalMethod .
+
+hi:ParetoOptimality a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid4 .
+
+hi:ParticipatoryEvaluation a hi:EvaluationMethod .
+
+hi:PerformanceScore a hi:Metric .
+
+hi:PerformanceTest a hi:EvaluationMethod .
+
+hi:PhysiologicalEvaluation a hi:EvaluationMethod ;
+    hi:usesMetric hi:HeartRate,
+        hi:HeartRateVariability .
+
+hi:PhysiologicalMonitoring a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:MentalWorkloadEstimation,
+        hi:PhysiologicalComputing .
+
+hi:PredictingHumanDecisions a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:AbstractionBasedToM .
+
+hi:PrivacyPreservingAI a hi:SocialAI .
+
+hi:ProfessionalCarePlanning a hi:Domain .
+
+hi:ProvideFeedback a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Contribution-based3 .
+
+hi:ProvidePredictiveInsights a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid5 .
+
+hi:PutThatThere a hi:InteractionMethod .
+
+hi:Reasoning a hi:Capability,
+        hi:ProcessingTask,
+        owl:NamedIndividual .
+
+hi:Recruitment a hi:Domain .
+
+hi:Recursion a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:ComputationalRationality .
+
+hi:ReducingSemanticGaps a hi:Endgoal .
+
+hi:Reflection a hi:Capability .
+
+hi:Reflectiveness a hi:capability .
+
+hi:ReinvigoratingParticleSets a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:BA_POMDPs,
+        hi:BayesianReinforcementLearning .
+
+hi:SemanticModelling a hi:SemanticMethod .
+
+hi:SemanticSceneGraph a hi:KnowledgeGraphs .
+
+hi:SemanticTechnologies a hi:Domain .
+
+hi:SimilarityMatching a hi:EvaluationMethod ;
+    hi:usesMetric hi:SimilarityScore .
+
+hi:SimilarityScore a hi:Metric .
+
+hi:SocialRoleModeling a hi:ProcessingMethod .
+
+hi:SolutionGeneration a hi:Capability .
+
+hi:SpeechToText a hi:ProcessingMethod .
+
+hi:StandardizedHCIProtocols a hi:Endgoal .
+
+hi:StatisticalAnalysis a hi:StatisticalMethod .
+
+hi:StatisticalModelling a hi:StatisticalMethod .
+
+hi:Stereotypes a hi:EthicalConsideration .
+
+hi:SubjectiveBiasMeasurement a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:AlgorithmicLabelCorrection .
+
+hi:SubjectiveEvaluation a hi:EvaluationMethod ;
+    hi:usesMetric hi:EngagementScale,
+        hi:ISA,
+        hi:NASA_TLX .
+
+hi:SubjectiveTaskModels a hi:SemanticMethod .
+
+hi:SuggestingActions a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:Hybrid5 .
+
+hi:SurveyExperiment a hi:InteractionMethod .
+
+hi:SymbolicGraphicalInterface a hi:InteractionMethod .
+
+hi:SyntheticDataAugmentation a hi:ProcessingMethod .
+
+hi:Teleoperation a hi:InteractionMethod .
+
+hi:TheoryOfAdjunction a hi:InteractionMethod .
+
+hi:TimeInconsistentPreferences a hi:EvaluationMethod ;
+    hi:usesMetric hi:AvgSumOfRewards,
+        hi:InteractionCost .
+
+hi:ToMBasedEvaluation a hi:EvaluationMethod .
+
+hi:TrainingNeuralNetworks a hi:LearningTask ;
+    hi:usesProcessingMethod hi:NeuralNetworkParameterization .
+
+hi:TranslatingVoiceCommands a hi:TransformationTask ;
+    hi:usesProcessingMethod hi:SpeechToText ;
+    hi:usesTool hi:WitAI .
+
+hi:UAVs a hi:ArtificialAgent ;
+    hi:hasEndgoal hi:EnhanceUserControl2 ;
+    hi:isCapableOf hi:AdaptiveInteractionControl,
+        hi:PerformanceMonitoring ;
+    hi:participatesIn hi:AdjustingInteraction,
+        hi:TaskDelegation2 ;
+    hi:processingTask hi:BehavioralMonitoring,
+        hi:ModelHCIDynamics,
+        hi:OnlineLearning,
+        hi:PhysiologicalMonitoring .
+
+hi:UnbiasedDatasetCreation a hi:Endgoal .
+
+hi:UnbiasedSystem a hi:EthicalConsideration .
+
+hi:UnbiasedSystem2 a hi:EthicalConsideration .
+
+hi:UserAlignedRecognition a hi:Capability .
+
+hi:UserControlledGeneration a hi:InteractionMethod .
+
+hi:Vagueness a hi:Capability .
+
+hi:VirtualReality a hi:ProcessingMethod ;
+    owl:sameAs dbr:Virtual_reality .
+
+hi:AIEthics4 a hi:Domain,
+        hi:SocialAI .
+
+hi:AIMonitoring2 a hi:Domain .
+
+hi:Accountability a hi:EthicalConsideration .
+
+hi:Adjunction a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:TheoryOfAdjunction .
+
+hi:AdjustingInteraction a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Multi-agent2,
+        hi:Teleoperation .
+
+hi:AlgorithmicJustice a hi:Endgoal .
+
+hi:AnalyticalOutputInteraction a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:CognitiveForcingFunctions .
+
+hi:ApplicationDesign a hi:Domain .
+
+hi:Autonomy a hi:EthicalConsideration .
+
+hi:AvgSumOfRewards a hi:Metric .
+
+hi:Aviation a hi:Domain .
+
+hi:BA_POMDPs a hi:StatisticalMethod .
+
+hi:BayesianReinforcementLearning a hi:MachineLearningMethod,
+        hi:StatisticalMethod .
+
+hi:BehavioralMonitoring a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:PhysiologicalComputing,
+        hi:StatisticalAnalysis .
+
+hi:BiasAssessmentInLabeling a hi:FairnessEvaluation .
+
+hi:Business a hi:Domain .
+
+hi:CaseKnowledgeGraph a hi:KnowledgeGraphs .
+
+hi:Collaboration-based4 a hi:InteractionMethod .
+
+hi:ComputerVision a hi:Domain ;
+    owl:sameAs dbr:Computer_vision .
+
+hi:Contribution-based3 a hi:InteractionMethod .
+
+hi:CorrelativeModelling a hi:ProcessingMethod .
+
+hi:DataTransformation a hi:ProcessingMethod,
+        hi:TransformationTask .
+
+hi:DecisionSupport a hi:Capability,
+        hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Collaboration-based2 .
+
+hi:DomainKnowledgeGraph a hi:KnowledgeGraphs .
+
+hi:Education a hi:Domain .
+
+hi:EnhanceUserControl2 a hi:EndGoal .
+
+hi:EnsureFairness3 a hi:EndGoal .
+
+hi:EnsuringPrivacy a hi:EthicalConsideration .
+
+hi:ExtractingPatientInsights a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:FederatedLearning .
+
+hi:FairnessAssessment a hi:InteractionMethod .
+
+hi:GenerationTask a owl:Class ;
+    rdfs:subClassOf hi:ProcessingTask .
+
+hi:Healthcare a hi:Domain .
+
+hi:HierarchicalClassification a hi:Domain .
+
+hi:HumanAIInteraction a hi:Domain .
+
+hi:HumanCenteredAI a hi:Domain .
+
+hi:HumanInTheLoop a hi:InteractionMethod .
+
+hi:HumanRobotInteraction a hi:Domain ;
+    owl:sameAs dbr:Human-Computer_Interaction .
+
+hi:HybridIntelligence a hi:Domain .
+
+hi:InteractionCost a hi:Metric .
+
+hi:MentalWorkloadEstimation a hi:ProcessingMethod .
+
+hi:ModelHCIDynamics a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:POMDPs2 .
+
+hi:MonitoringAI a hi:Capability .
+
+hi:Multi-agent2 a hi:InteractionMethod .
+
+hi:MultiAgentSystems a hi:Domain .
+
+hi:Multimodal2 a hi:InteractionMethod .
+
+hi:Non-cooperative2 a hi:InteractionMethod .
+
+hi:ObjectCreationManagement a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Multimodal2,
+        hi:UserControlledGeneration .
+
+hi:OnlineSurveyAnnotation a hi:InteractionMethod .
+
+hi:OutputComparison a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Collaboration-based4 .
+
+hi:POMDPs2 a hi:MachineLearningMethod .
+
+hi:ParticleMaintenance a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:BA_POMDPs,
+        hi:BayesianReinforcementLearning .
+
+hi:PerformanceMonitoring a hi:Capability .
+
+hi:Perturbation a hi:TransformationTask ;
+    hi:usesProcessingMethod hi:MarkovModels .
+
+hi:PhysiologicalComputing a hi:ProcessingMethod .
+
+hi:ProvideFeedbackForImprovement a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:HumanInTheLoop .
+
+hi:ReasoningTask a owl:Class ;
+    rdfs:subClassOf hi:ProcessingTask .
+
+hi:Recommendation a hi:Capability,
+        hi:InteractionTask,
+        owl:NamedIndividual ;
+    owl:sameAs dbr:Recommender_system .
+
+hi:ReviewRecommendations a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:HumanInTheLoop .
+
+hi:SequentialGame a hi:InteractionMethod .
+
+hi:SolvingSTMs a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:ObjectiveTaskModels,
+        hi:POMDPs,
+        hi:SubjectiveTaskModels .
+
+hi:SpatialManagement a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Multimodal2,
+        hi:PutThatThere .
+
+hi:TaskDelegation a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:MultiAgentModel,
+        hi:SequentialGame .
+
+hi:TaskDelegation2 a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:Multi-agent2,
+        hi:POMDPPolicy .
+
+hi:TaskExecutionWithOverrides a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:BeliefAlignment,
+        hi:MoH_Model,
+        hi:SequentialGame .
+
+hi:VisualSemantics a hi:Domain .
+
+hi:DesignFiction a hi:InteractionMethod ;
+    hi:followsFramework hi:DesignFictionToolkit .
+
+hi:EASY_AI_Framework a hi:Framework .
+
+hi:EnsureTransparancy7 a hi:EndGoal .
+
+hi:FairnessPerceptionEvaluation a hi:ProcessingTask ;
+    hi:usesProcessingMethod hi:DecisionComparison .
+
+hi:HumanFairnessJudgment a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:SurveyExperiment .
+
+hi:Hybrid4 a hi:ProcessingMethod .
+
+hi:MetaInteractionSDK a hi:Tool .
+
+hi:ResponsibleDesign a hi:Endgoal .
+
+hi:ResponsibleDesign2 a hi:Endgoal .
+
+hi:SemanticMethod a owl:Class ;
+    rdfs:subClassOf hi:ProcessingMethod .
+
+hi:ToMEnabledReasoning a hi:InteractionMethod .
+
+hi:TransformationTask a owl:Class ;
+    rdfs:subClassOf hi:ProcessingTask .
+
+hi:VignetteBasedFairnessEvaluation a hi:FairnessEvaluation .
+
+hi:WitAI a hi:tool .
+
+hi:capability a owl:ObjectProperty ;
+    rdfs:domain hi:Actor ;
+    rdfs:range hi:Capability .
+
+hi:CriticalThinking a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:DesignFiction .
+
+hi:DecisionMaking a hi:Capability .
+
+hi:DecisionMaking5 a hi:Capability .
+
+hi:EnsuringPrivacy3 a hi:EthicalConsideration .
+
+hi:EnsuringTransparency a hi:EthicalConsideration .
+
+hi:GenerativeAI a hi:Domain .
+
+hi:Hybrid3 a hi:ProcessingMethod .
+
+hi:Ideate a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:DesignFiction .
+
+hi:InformationProcessing a owl:Class .
+
+hi:Interaction a owl:Class .
+
+hi:LearningTask a owl:Class ;
+    rdfs:subClassOf hi:ProcessingTask .
+
+hi:MachineLearningFairness a hi:Domain .
+
+hi:PredictiveDecisionMaking a hi:Domain ;
+    owl:sameAs dbr:Predictive_analytics .
+
+hi:Prepare a hi:Capability .
+
+hi:Refine a hi:InteractionTask ;
+    hi:usesInteractionMethod hi:DesignFiction .
+
+hi:Reflection2 a hi:Capability .
+
+hi:VirtualRealityApplications a hi:Domain .
+
+hi:Framework a owl:Class .
+
+hi:Hybrid5 a hi:ProcessingMethod .
+
+hi:KnowledgeGraphs rdfs:subClassOf hi:InformationProcessing .
+
+hi:Scenario a owl:Class .
+
+hi:MachineLearningMethod a owl:Class ;
+    rdfs:subClassOf hi:ProcessingMethod .
+
+hi:Tool a owl:Class .
+
+hi:SocialAI a owl:Class ;
+    rdfs:subClassOf hi:Domain .
+
+hi:StatisticalMethod a owl:Class ;
+    rdfs:subClassOf hi:ProcessingMethod .
+
+hi:FairnessEvaluation a hi:Capability,
+        owl:Class ;
+    rdfs:subClassOf hi:EvaluationMethod .
+
+hi:Metric a owl:Class .
+
+hi:Actor a owl:Class .
+
+hi:Human a owl:Class ;
+    rdfs:subClassOf hi:Actor .
+
+hi:ArtificialAgent a owl:Class ;
+    rdfs:subClassOf hi:Actor .
+
+hi:EvaluationMethod a owl:Class .
+
+hi:Context a owl:Class .
+
+hi:EthicalConsideration a owl:Class .
+
+hi:InteractionMethod a owl:Class .
+
+hi:ProcessingMethod a owl:Class .
+
+hi:InteractionTask a owl:Class .
+
+hi:Endgoal a owl:Class .
+
+hi:Domain a owl:Class .
+
+hi:ProcessingTask a owl:Class .
+
+hi:Capability a owl:Class .
+
