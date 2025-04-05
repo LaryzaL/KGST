@@ -13,9 +13,9 @@ For this project, we had to expand a provided ontology in the domain of Hybrid I
 10) Monitoring Fairness in HOLDA
 11) Abstracting Minds: Computational Theory of Mind for Human-Agent Collaboration
 12) Humans vs. Machines: Who is Perceived to Decide Fairer? An Experiment about Citizens’ Attitudes
-13)
-14)
-15)
-16)
-17)
-18)
+13) Monitoring AI Systems: A Problem Analysis, Framework and Outlook
+14) Open, Multiple, Adjunct. Decision Support at the Time of Relational AI
+15) Computer, Generate! – Investigating User-Controlled Generation of Immersive Virtual Environments
+16) Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
+17) MiniCoDe Workshops. Minimise Algorithmic Bias in Collaborative Decision Making with Design Fiction
+18) POMDP-Based Adaptive Interaction Through Physiological Computing
