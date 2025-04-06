@@ -1,0 +1,1816 @@
+@prefix ns1: <http://www.semanticweb.org/hi_ontology#> .
+@prefix ns2: <http://www.owl-ontologies.com/hi#> .
+@prefix ns3: <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51/> .
+@prefix ns4: <http://webprotege.stanford.edu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns4:R4MKmIsAkyWIwBuSOAtZN6 a ns4:R8s5V56zgX2LzaYacaq4k4r .
+
+ns4:R72gfbkwERIZ1VGEkLgtTU1 a ns4:R8s5V56zgX2LzaYacaq4k4r .
+
+ns4:R7L3KLrm8cLtFdMAA89UmTk a [ ],
+        ns3:ArtificialAgent ;
+    ns3:interactionMethod ns4:RcBYlApBcbGhmcXc0b6LTz .
+
+ns4:R7Pi79vGgBDsoAu5EYTCyRj a ns4:R974KWLHbQiSe4BiDbpTZif ;
+    ns3:interactionMethod ns3:Contribution-based .
+
+ns4:R7PrkJQokJKieMcN54TaT0E a [ ],
+        ns3:ArtificialAgent ;
+    ns3:interactionMethod ns3:Single-agent .
+
+ns4:R7aogVbO7lLktPAkTQUVdJH a ns4:R8s5V56zgX2LzaYacaq4k4r .
+
+ns4:R84h9Bb0TuNDNEJghHNk29T a ns4:R28UKpkU3djqDapS0PZmOg .
+
+ns4:R86BegvsfDHQigRLwfC1dr0 a ns4:RCUnyALP3vdjgbyXAktIoiv .
+
+ns4:R880dNPsEsv3HpLT4TB86wh a [ ],
+        ns3:ArtificialAgent ;
+    ns3:domain ns4:R7WivB5O3CgSGkUWI5zHduF .
+
+ns4:R8ZnaDFdOTdKufmfLcz3s9v a ns4:R8s5V56zgX2LzaYacaq4k4r .
+
+ns4:R8sDBic9BdVEMNIRlYUx2f5 a ns4:RCUnyALP3vdjgbyXAktIoiv .
+
+ns4:R8tCYvzUcOztUf65XaBnqfq a ns4:R974KWLHbQiSe4BiDbpTZif ;
+    ns3:capability ns3:Communication ;
+    ns3:interactionMethod ns3:Collaboration-based .
+
+ns4:R93B7YvBIhZbqOPUDRfrrup a ns3:ArtificialAgent .
+
+ns4:R96zg06ozYmrGBo01CICCqx a ns4:R28UKpkU3djqDapS0PZmOg .
+
+ns4:R9t3OSvVyo0NOuO5qrUEjF2 a ns4:RCUnyALP3vdjgbyXAktIoiv .
+
+ns4:RBt3f14U17YzpMxE3DHS3uy a ns4:RCUnyALP3vdjgbyXAktIoiv .
+
+ns4:RDEcnEWlY2ZLpMfUmaSHRSC a ns4:RCUnyALP3vdjgbyXAktIoiv .
+
+ns4:RDcjNPbWt1bOdG6SLzh9UiZ a ns3:ArtificialAgent ;
+    ns4:RDz2FfIVCEqGm2E2j26hCfi ns4:RXkgCia5v1alxR8D7bBem3 ;
+    ns3:informationMethod ns3:Symbolic ;
+    ns3:interactionMethod ns3:Neuro-symbolic .
+
+ns4:RDy1UJTgmMoXOfcaK2dqVm a ns4:RCTj2GYfzj9eiGHTj3Bx2gN .
+
+ns4:RFey7NG0fEaPrGHufx0eEF a [ ],
+        ns3:ArtificialAgent ;
+    ns3:interactionMethod ns3:Non-cooperative .
+
+ns4:RWXyXG4krYAJHhwLMXuE3q a [ ],
+        ns3:ArtificialAgent ;
+    ns3:interactionMethod ns3:Multimodal .
+
+ns4:RebnghGk4j45zEi40Aw09C a ns4:RCTj2GYfzj9eiGHTj3Bx2gN .
+
+ns4:Rh0LMNrw7IO0r7eUiJy2X2 a ns4:RCTj2GYfzj9eiGHTj3Bx2gN .
+
+ns4:Rt8aWJ1SH2RxB3efTPphXw a ns4:R8s5V56zgX2LzaYacaq4k4r .
+
+ns2:AssistingAssistant a ns2:Interaction ;
+    ns2:interactingAgent ns2:Cobot ;
+    ns2:interactionTask ns2:ActionSuggestion,
+        ns2:InformationProvision .
+
+ns2:BotTrader a ns2:ArtificialAgent ;
+    ns2:capability ns2:SpeculativeTrading ;
+    ns2:hasTargetUser ns2:Trader ;
+    ns2:inScenario ns2:Trading .
+
+ns2:COMPAS a ns2:ArtificialAgent ;
+    ns2:inScenario ns2:CriminalAnalysis ;
+    ns2:processingInformation ns2:CriminalRecords .
+
+ns2:ChatGPT a ns2:ArtificialAgent ;
+    ns2:inScenario ns2:TrustAnalysis .
+
+ns2:Collaboration a ns2:Interaction ;
+    ns2:interactingAgent ns2:GamePlayer ;
+    ns2:interactionMethod ns2:SimulationTheoryOfMind ;
+    ns2:interactionTask ns2:CommonGround .
+
+ns2:ConsentTheory a ns2:GovernanceApproach .
+
+ns2:CooperationRateDQNAgents a ns2:InformationProcessing .
+
+ns2:CostOfErrors a ns2:EthicalConsideration ;
+    ns2:lacks ns2:CostSensitivity .
+
+ns2:DecisionMaking a ns2:ProcessingTask .
+
+ns2:DeepInverseRL a ns2:ArtificialAgent ;
+    ns2:inScenario ns2:AddExpertData .
+
+ns2:DiCE a ns2:ArtificialAgent ;
+    ns2:ensures ns2:Diversity,
+        ns2:Plausibility ;
+    ns2:inScenario ns2:CounterfactualScenario ;
+    ns2:processingInformation ns2:PredictionModelFeatures .
+
+ns2:ExplainingPrediction a ns2:Interaction ;
+    ns2:interactingAgent ns2:ProtoTree ;
+    ns2:interactionMethod ns2:DecisionPath ;
+    ns2:interactionTask ns2:FeatureExplainability .
+
+ns2:GDPR a ns2:GovernanceApproach ;
+    ns2:enforces ns2:Contestability,
+        ns2:Transparency .
+
+ns2:HOLDA a ns2:ArtificialAgent ;
+    ns2:capability ns2:BestModelMaintenance ;
+    ns2:inScenario ns2:FedaratingData ;
+    ns2:processingInformation ns2:FederatedLearning .
+
+ns2:HumanInLoop a ns2:Human ;
+    ns2:inScenario ns2:ValueBased ;
+    ns2:processingInformation ns2:MLmodel .
+
+ns2:Hybrid a ns2:ProcessingMethod .
+
+ns2:InteractiveInterface a ns2:Interaction ;
+    ns2:interactingAgent ns2:FeatureSpaceNavigator,
+        ns2:UserLimitTechKnowledge ;
+    ns2:interactionMethod ns2:AdaptableDecisionBoundary,
+        ns2:FeatureExploration ;
+    ns2:interactionTask ns2:FeatureExplainability .
+
+ns2:NarxCare a ns2:ArtificialAgent ;
+    ns2:inScenario ns2:HealthAnalysis .
+
+ns2:ObjectiveTaskSolving a ns2:ProcessingTask ;
+    ns2:influences ns2:AlgorithmAppreciation .
+
+ns2:PerceivedExpertise a ns2:EthicalMetric ;
+    ns2:influences ns2:PerceivedRisk,
+        ns2:PerceivedUsefulness,
+        ns2:UserTrust .
+
+ns2:PrincipleOfPublicity a ns2:DemocraticApproach .
+
+ns2:PublicReason a ns2:DemocraticApproach .
+
+ns2:RawIsianJusticeAsFairness a ns2:GovernanceApproach .
+
+ns2:ResponsibilityGap a ns2:EthicalConsideration ;
+    ns2:lacks ns2:Accountability .
+
+ns2:SubjectiveTaskSolving a ns2:ProcessingTask ;
+    ns2:influences ns2:AlgorithmAversion .
+
+ns2:TLACE a ns2:ArtificialAgent ;
+    ns2:ensures ns2:Similarity ;
+    ns2:inScenario ns2:CounterfactualScenario .
+
+ns2:VisualInterface a ns2:Interaction ;
+    ns2:interactingAgent ns2:Prospector ;
+    ns2:interactionMethod ns2:FeatureExploration ;
+    ns2:interactionTask ns2:FeatureExplainability .
+
+ns1:AIOutputTransparency a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:Absolutist a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicsPositionTheory .
+
+ns1:ActivationSimilarity a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> .
+
+ns1:AnnotationErrorDetection a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:AppropriateReliance a ns1:AI_Concept ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance ;
+    ns1:partOf ns1:Reliances_Behavior ;
+    ns1:positivelyCorrelatedWith ns1:AIAssistedDecisionMakingTask .
+
+ns1:ArchitecturalExpert a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors>,
+        ns1:Human_Agent ;
+    ns1:achievesScore ns1:PartnershipScore ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:evaluatedWith ns1:HITAM_Evaluation ;
+    ns1:interactsWith ns1:GenerativeDesignAssistant ;
+    ns1:performsTask ns1:FloorPlanDesignTask,
+        ns1:GenerativeDesignTrainingTask .
+
+ns1:BehaviorPredictionTask a ns1:Task ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicalProfilingScenario .
+
+ns1:BehavioralTrustMeasurement a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:uses ns1:InterventionFrequency .
+
+ns1:BelowThresholdOrientedSampling a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:partOf ns1:ValueAwareActiveLearningScenario ;
+    ns1:uses ns1:RejectionThreshold .
+
+ns1:BiasVisualization a ns1:AI_Concept ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:CaseBasedReasoningSystem a ns1:AI_Agent ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:performsTask ns1:AIInterpretabilityTask ;
+    ns1:uses ns1:LandmarkCases,
+        ns1:PrecedentialConstraint .
+
+ns1:CaseBasedReasoningXAI a ns1:AI_Concept ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:relatedTo ns1:Trust,
+        ns1:UserControl ;
+    ns1:uses ns1:LandmarkCases,
+        ns1:PrecedentialConstraint .
+
+ns1:CaseResearcher a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors>,
+        ns1:Human_Agent ;
+    ns1:achievesScore ns1:COMPASConsistencyScore ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:evaluatedWith ns1:ConsistencyEvaluation ;
+    ns1:performsTask ns1:CaseAnalysisTask .
+
+ns1:CertaintySampling a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:partOf ns1:ValueAwareActiveLearningScenario .
+
+ns1:Clinc150Dataset a ns1:Dataset ;
+    ns1:usedIn ns1:ValueAwareActiveLearning .
+
+ns1:ClinicalAISystem a ns1:AI_Agent .
+
+ns1:ClinicalAITrustScenario a ns1:Scenario ;
+    ns1:basedOn ns1:TrustInClinicalAI .
+
+ns1:ClinicalExpert a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors>,
+        ns1:Human_Agent .
+
+ns1:CoActivationGraph a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> ;
+    ns1:partOf ns1:TopographicActivationMaps .
+
+ns1:Compliance a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:positivelyCorrelatedWith ns1:Trust .
+
+ns1:ComponentAnalysis a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> .
+
+ns1:Conscientiousness a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:ContextualThompsonSampling a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:partOf ns1:ReinforcementLearningDementiaCare .
+
+ns1:ConvolutionalNeuralNetwork a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> .
+
+ns1:DBPediaDataset a ns1:Dataset ;
+    ns1:usedIn ns1:ValueAwareActiveLearning .
+
+ns1:DataRepresentationAnalysis a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:DiabetesUseCase a ns1:Scenario ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:relatedTo ns1:DiaryConstructionScenario .
+
+ns1:DiaryUser a ns1:Human_Agent ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:interactsWith ns1:HybridIntelligenceAgent .
+
+ns1:DimensionOrdering a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:partOf ns1:PrecedentialConstraint .
+
+ns1:DimensionalityReduction a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> ;
+    ns1:partOf ns1:TopographicActivationMaps .
+
+ns1:DispositionalTrust a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:partOf ns1:Trust .
+
+ns1:DuringDevelopmentTrustStage a ns1:AI_Concept ;
+    ns1:partOf ns1:Trust .
+
+ns1:DuringUseTrustStage a ns1:AI_Concept ;
+    ns1:partOf ns1:Trust .
+
+ns1:DynamicTrust a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:relatedTo ns1:Trust .
+
+ns1:EnvironmentUncertainty a ns1:AI_Concept ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:influences ns1:InterventionFrequency,
+        ns1:MiscalibratedTrust ;
+    ns1:negativelyCorrelatedWith ns1:Trust .
+
+ns1:EthicalProfilingTask a ns1:Task ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicalProfilingScenario .
+
+ns1:EvidenceGenerationTrustStage a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:partOf ns1:Trust .
+
+ns1:Exceptionist a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicsPositionTheory .
+
+ns1:FairFaceDataset a ns1:Dataset ;
+    ns1:usedIn ns1:TopographicActivationMaps .
+
+ns1:FashionMNISTDataset a ns1:Dataset ;
+    ns1:usedIn ns1:TopographicActivationMaps .
+
+ns1:FeatureVisualization a ns1:AI_Concept ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:ForcingRelation a ns1:AI_Concept ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:partOf ns1:PrecedentialConstraint .
+
+ns1:GoalMisalignment a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:influences ns1:InterventionFrequency ;
+    ns1:negativelyCorrelatedWith ns1:Trust ;
+    ns1:oppositeOf ns1:GoalAlignment .
+
+ns1:HI_TAM_Concept a ns1:AI_Concept ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:HateSpeechDataset a ns1:Dataset ;
+    ns1:usedIn ns1:ValueAwareActiveLearning .
+
+ns1:HumanInLoopRLConcept a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:RLHumanInLoopPaper .
+
+ns1:HumanSimulator a ns1:AI_Concept ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:HybridIntelligenceNarrative a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors> ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:LearnedTrust a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:partOf ns1:Trust .
+
+ns1:LinearUpperConfidenceBound a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:partOf ns1:ReinforcementLearningDementiaCare .
+
+ns1:MDPFormulationTask a ns1:Task ;
+    ns1:describedIn ns1:RLHumanInLoopPaper ;
+    ns1:partOf ns1:RLHumanInLoopScenario .
+
+ns1:MNISTDataset a ns1:Dataset ;
+    ns1:usedIn ns1:TopographicActivationMaps .
+
+ns1:Machiavellianism a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:negativelyCorrelatedWith ns1:Idealism ;
+    ns1:positivelyCorrelatedWith ns1:Relativism .
+
+ns1:MachineLearningDeveloperRole a ns1:AI_Concept ;
+    ns1:describedIn ns1:RLHumanInLoopPaper .
+
+ns1:MeanSquaredError a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> .
+
+ns1:ModelValue a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> ;
+    ns1:uses ns1:CostFactor .
+
+ns1:MultiLayerPerceptron a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> .
+
+ns1:Narcissism a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:NavigatorHuman a ns1:Human_Agent ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:interactsWith ns1:NavigationAI ;
+    ns1:performsTask ns1:Intervention,
+        ns1:NavigationTask .
+
+ns1:OverReliance a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance ;
+    ns1:negativelyCorrelatedWith ns1:AIAssistedDecisionMakingTask ;
+    ns1:partOf ns1:Reliances_Behavior .
+
+ns1:ParticleSwarmOptimization a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:partOf ns1:TopographicActivationMaps .
+
+ns1:PatientRecoveryUseCase a ns1:Scenario ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:relatedTo ns1:DiaryConstructionScenario .
+
+ns1:PostDeploymentTrustStage a ns1:AI_Concept ;
+    ns1:partOf ns1:Trust .
+
+ns1:PreDevelopmentTrustStage a ns1:AI_Concept ;
+    ns1:partOf ns1:Trust .
+
+ns1:PwDUser a ns1:Human_Agent ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:interactsWith ns1:WhoTakesCareAI .
+
+ns1:RLProblemIdentificationConcept a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:RLHumanInLoopPaper ;
+    ns1:influences ns1:MDPFormulationConcept .
+
+ns1:RLProblemIdentificationTask a ns1:Task ;
+    ns1:describedIn ns1:RLHumanInLoopPaper ;
+    ns1:partOf ns1:RLHumanInLoopScenario .
+
+ns1:RandomSampling a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:partOf ns1:ValueAwareActiveLearningScenario .
+
+ns1:RelianceEvaluation a ns1:Evaluation ;
+    ns1:appliesTo ns1:AIAssistedDecisionMakingTask ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance .
+
+ns1:RelianceQuality a ns1:AI_Concept ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance .
+
+ns1:SaliencyMaps a ns1:AI_Concept ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:SelectiveClassification a ns1:AI_Concept ;
+    ns1:uses ns1:RejectionThreshold .
+
+ns1:SelfOrganizingMap a ns1:AI_Concept ;
+    ns1:partOf ns1:TopographicActivationMaps .
+
+ns1:SituationalTrust a ns1:AI_Concept ;
+    ns1:partOf ns1:Trust .
+
+ns1:Situationist a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicsPositionTheory .
+
+ns1:SoftwareExoskeleton a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:ExosoulProject ;
+    ns1:uses ns1:LegalistProfile,
+        ns1:OpportunistProfile,
+        ns1:SensibleProfile,
+        ns1:VirtuousProfile .
+
+ns1:SubjectMatterExpertRole a ns1:AI_Concept ;
+    ns1:describedIn ns1:RLHumanInLoopPaper .
+
+ns1:Subjectivist a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicsPositionTheory .
+
+ns1:ThreeStageEscalationScenario a ns1:AI_Concept ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:ThresholdOrientedSampling a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:partOf ns1:ValueAwareActiveLearningScenario ;
+    ns1:uses ns1:RejectionThreshold .
+
+ns1:ToxicityUseCase a ns1:Scenario ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:relatedTo ns1:DiaryConstructionScenario .
+
+ns1:TrainingProcessVisualization a ns1:AI_Concept ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:TrustCalibrationTask a ns1:Task .
+
+ns1:TrustDampeningMechanism a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:partOf ns1:Trust .
+
+ns1:TrustRepairMechanism a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:partOf ns1:Trust .
+
+ns1:TwitterUSAirlineSentimentDataset a ns1:Dataset ;
+    ns1:usedIn ns1:ValueAwareActiveLearning .
+
+ns1:UncertaintySampling a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> ;
+    ns1:partOf ns1:ValueAwareActiveLearningScenario .
+
+ns1:UnderReliance a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance ;
+    ns1:negativelyCorrelatedWith ns1:AIAssistedDecisionMakingTask ;
+    ns1:partOf ns1:Reliances_Behavior .
+
+ns1:VGG16 a <http://www.co-ode.org/ontologies/ont.owl#AI_Modeling_Representation> .
+
+ns1:ValueAwareActiveLearningTask a ns1:Task ;
+    ns1:partOf ns1:ValueAwareActiveLearningScenario .
+
+ns1:ValuePerformanceMetric a ns1:AI_Concept .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ArtificialAgent1> a ns3:ArtificialAgent .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#BridgingPreferenceParadox> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UseOfArtificialAgent> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ChatGPT> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#LargeLanguageModel> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Co-evolution> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Co-Learning> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ConversationWithLLM> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UseOfArtificialAgent> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ConvolutionalNeuralNetwork> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#DeepNeuralNetworks> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#CorrectResponsesOnExam> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Correctness> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#DecisionProcess> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Explain> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#EEG> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Science> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Expert> a ns3:Human .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ExplainingDecisionTrees> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ExplainableAI> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#FirstResponse> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#EmergencyResponse> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#GPT3.5> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Model> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#GeneratingAudioResponses> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Answering> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#GeneratingTextualResponses> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Answering> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#GoogleSearchEngine> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#SearchEngine> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#HighScoreOnExam> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Correctness> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#HumanAgent1> a ns3:Human .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#InTheSamePatternAs> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#AnswerQuestion> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#LLaMa> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#LargeLanguageModel> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#LanguageToLanguageTranslation> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Translation> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Negotiation> a [ ],
+        [ ] .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Neuroscience> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Science> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#NonExpertUsers> a ns3:Human .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Physics> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Science> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#PhysicsExercises> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#AnswerQuestion> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#PhysicsStudent> a ns3:Human .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ProcessingAudioInput> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Listening> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ProcessingTextInput> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Reading> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ProcessingVisualInput> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Reading> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#RandomForest> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#DecisionTrees> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Recommending> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Answering> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ServiceTechnician> a ns3:Human .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#StrictlyPromptQuestion> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#AnswerQuestion> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#TextToNumbersTranslation> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Translation> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UnmannedAerialVehicle> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UnmannedVehicles> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UnmannedGroundVehicle> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UnmannedVehicles> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UsingLLMToAnswerPhysicsQuestions> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UseOfArtificialAgent> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#UsingNon-TechnicalTerms> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Explain> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#VPEIntoNumericalUncertainty> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Transform> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#ValidExplanationOfDecisionProcess> a <http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#Explainability> .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#imageProcessing> a ns3:InformationProcessing .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#speechRecognition> a ns3:InformationProcessing .
+
+<http://www.semanticweb.org/vbr240/ontologies/2022/4/untitled-ontology-51#textUnderstanding> a ns3:InformationProcessing .
+
+ns3:ADAM a ns3:ArtificialAgent .
+
+ns3:AIApplication a ns3:ArtificialAgent ;
+    ns3:inScenario ns3:HumanAIDevelopmentScenario .
+
+ns3:AIAssistedLearning a ns3:InformationProcessing .
+
+ns3:AIAssistedWriting a ns3:Scenario ;
+    ns3:context ns3:AcademicResearch ;
+    ns3:domain ns3:HigherEducation ;
+    ns3:endgoal ns3:QualityImprovement ;
+    ns3:hasInteraction ns3:PromptBasedInteraction .
+
+ns3:AIPractioner a ns3:Human ;
+    ns3:inScenario ns3:HumanAIDevelopmentScenario .
+
+ns3:AIWordAssociation a ns3:WordAssociation .
+
+ns3:AR a ns3:Context .
+
+ns3:ActiveLearning a ns3:InteractiveML .
+
+ns3:Adult a ns3:Human ;
+    ns3:hasBias ns3:GenderBias ;
+    ns3:hasCognitiveEffect ns3:ConcretenessEffect .
+
+ns3:AgentAllocator a ns3:ArtificialAgent ;
+    ns3:allocatesTask ns3:IdentifyEvent,
+        ns3:IdentifyLandmark,
+        ns3:IdentifyLanguage,
+        ns3:SolveWordGrid .
+
+ns3:AmbientAssistedLiving a ns3:ProcessingMethod .
+
+ns3:ArDlvkPlanningSystem a ns3:ArtificialAgent ;
+    ns3:capability ns3:SituationalAwarenessEnhancement ;
+    ns3:processingInformation ns3:TacticalPlanning ;
+    ns3:processingTask ns3:InformationTransfer .
+
+ns3:ArgumentMining a ns3:ProcessingMethod .
+
+ns3:AssistanceBlockWorld a ns3:Scenario .
+
+ns3:Asymmetrical_Dependence a ns3:DependenceRelation .
+
+ns3:AuditoryFeedback a ns3:Feedback .
+
+ns3:AutonomousRobot a ns3:Robot .
+
+ns3:BDI a ns3:Capability .
+
+ns3:Bilateral_Coordination a ns3:AnticipatoryCoordination,
+        ns3:PositiveCoordination .
+
+ns3:Bilateral_Delegation a ns3:Delegation .
+
+ns3:Caregiver a ns3:Human ;
+    ns3:inScenario ns3:DementiaCareScenario .
+
+ns3:ChatGPT a ns3:ArtificialAgent,
+        ns3:GenAI ;
+    ns3:capability ns3:ExplanationGeneration ;
+    ns3:processingInformation ns3:NaturalLanguageExplanationGeneration .
+
+ns3:Child a ns3:Human .
+
+ns3:Clarification a ns3:CommunicationAction .
+
+ns3:Close_Delegation a ns3:Delegation .
+
+ns3:ClosedLoopSystem a ns3:ArtificialAgent ;
+    ns3:informationMethod ns3:Statistical ;
+    ns3:processingInformation ns3:TaskAllocation ;
+    ns3:processingTask ns3:Learning .
+
+ns3:Clustering a ns3:ProcessingTask .
+
+ns3:Coercive_Action a ns3:InfluencingAction .
+
+ns3:CognitiveUserModel a ns3:UserModel .
+
+ns3:Collaborative_Coordination a [ ],
+        ns3:AnticipatoryCoordination,
+        ns3:PositiveCoordination .
+
+ns3:Confidence a ns3:CognitiveEffect .
+
+ns3:ConflictAvoidance a ns3:NegativeCoordination .
+
+ns3:Control a ns3:Capability .
+
+ns3:CooperativeOptimization a ns3:PositiveCoordination .
+
+ns3:Creativity a ns3:Capability .
+
+ns3:Deceptive_Action a ns3:InfluencingAction .
+
+ns3:DecisionMaking a ns3:Capability,
+        ns3:ProcessingMethod .
+
+ns3:Designer a ns3:Human ;
+    ns3:hasEndgoal ns3:EnhanceUserControl2,
+        ns3:EnsureFairness3,
+        ns3:EnsureTransparancy7,
+        ns3:ResponsibleDesign2 ;
+    ns3:isCapableOf ns3:DecisionMaking5,
+        ns3:Prepare,
+        ns3:Reflection2 ;
+    ns3:participatesIn ns3:CriticalThinking,
+        ns3:Ideate,
+        ns3:Refine .
+
+ns3:DigitalBehaviorAnalysis a ns3:Scenario ;
+    ns3:context ns3:DigitalWorld ;
+    ns3:domain ns3:DigitalEthics ;
+    ns3:hasEthicalConsideration ns3:CopyrightInfringement,
+        ns3:PrivacyViolation ;
+    ns3:hasInteraction ns3:MediatedInteraction .
+
+ns3:DirectIntervention a ns3:StrongSocialAction .
+
+ns3:EVE a ns3:ArtificialAgent .
+
+ns3:Economic_Power a ns3:PowerRelation .
+
+ns3:EnergyManagement a ns3:InteractionTask .
+
+ns3:Exosoul a ns3:ArtificialAgent ;
+    ns3:capability ns3:Responsibility,
+        ns3:Transparency ;
+    ns3:processingInformation ns3:EthicalProfiling .
+
+ns3:ExpectationDrivenAction a ns3:AnticipatoryCoordination .
+
+ns3:Explainability a ns3:Capability,
+        ns3:InteractionTask .
+
+ns3:ExplanationDialogueModel a ns3:InteractionMethod .
+
+ns3:ForecastedAdjustment a ns3:AnticipatoryCoordination .
+
+ns3:Generating a ns3:ProcessingTask .
+
+ns3:GenerativeAI a ns3:ArtificialAgent,
+        ns3:Domain ;
+    ns3:capability ns3:Collaborativeness ;
+    ns3:processingInformation ns3:AcademicWriting .
+
+ns3:GoalAlignment a ns3:GoalAdoption .
+
+ns3:HapticFeedback a ns3:Feedback .
+
+ns3:HarmfulContent a ns3:EthicalConsideration .
+
+ns3:Harmonization a ns3:NegativeCoordination .
+
+ns3:HealthcareMonitoring a ns3:InteractionTask .
+
+ns3:Hierarchical_Power a ns3:PowerRelation .
+
+ns3:HumanAgentDialogue a ns3:Scenario ;
+    ns3:context ns3:PersonalWellbeing ;
+    ns3:domain ns3:Healthcare ;
+    ns3:hasEthicalConsideration ns3:GoalConflict ;
+    ns3:hasInteraction ns3:AlignmentDialogue .
+
+ns3:HumanAllocator a ns3:Human ;
+    ns3:allocatesTask ns3:IdentifyEvent,
+        ns3:IdentifyLandmark,
+        ns3:IdentifyLanguage,
+        ns3:SolveWordGrid .
+
+ns3:HumanExpert a ns3:Human ;
+    ns3:inScenario ns3:ValueBasedHybridScenario .
+
+ns3:HumanInTheLoop a ns3:InteractionMethod,
+        ns3:Scenario ;
+    ns3:hasInteraction ns3:HumanFeedback .
+
+ns3:HumanOperator a ns3:Human ;
+    ns3:collaboratesWith ns3:UAVs ;
+    ns3:evaluatedBy ns3:BehavioralEvaluation,
+        ns3:PhysiologicalEvaluation,
+        ns3:SubjectiveEvaluation ;
+    ns3:isCapableOf ns3:PerformanceMonitoring ;
+    ns3:participatesIn ns3:AdjustingInteraction,
+        ns3:TaskDelegation2 ;
+    ns3:processingTask ns3:BehavioralMonitoring,
+        ns3:ModelHCIDynamics,
+        ns3:OfflineLearning .
+
+ns3:HumanOperator1 a ns3:Human ;
+    ns3:inScenario ns3:AdaptivePOMDPScenario ;
+    ns3:processingInformation ns3:POMPDModel .
+
+ns3:HumanRobotInteraction a ns3:Domain,
+        ns3:Scenario ;
+    ns3:context ns3:UserExplanationNeed ;
+    owl:sameAs <http://dbpedia.org/resource/Human-Computer_Interaction> .
+
+ns3:HumanWordAssociation a ns3:WordAssociation .
+
+ns3:HyEnA a ns3:ProcessingMethod .
+
+ns3:Hybrid a ns3:ProcessingMethod .
+
+ns3:HybridIntelligenceSystem a ns3:ArtificialAgent,
+        ns3:InformationProcessing ;
+    ns3:inScenario ns3:ValueBasedHybridScenario ;
+    ns3:processingTask ns3:ValueMetric .
+
+ns3:ImplicitExpectation a ns3:WeakSocialAction .
+
+ns3:Incentivizing_Action a ns3:InfluencingAction .
+
+ns3:IndoorPoliceIntervention a ns3:Scenario ;
+    ns3:context ns3:TacticalIntervention ;
+    ns3:domain ns3:LawEnforcement ;
+    ns3:hasEthicalConsideration ns3:DataSafety,
+        ns3:PrivacyConcerns ;
+    ns3:hasInteraction ns3:ARInformationPresentation .
+
+ns3:InstantAdjustment a ns3:ReactiveCoordination .
+
+ns3:Instruction a ns3:CommunicationAction .
+
+ns3:Intelligent_System a ns3:ArtificialAgent .
+
+ns3:IntentAdoption a ns3:GoalAdoption .
+
+ns3:InterferenceMinimization a ns3:NegativeCoordination .
+
+ns3:KeyArgumentAnnotation a ns3:ProcessingTask .
+
+ns3:KeyArgumentConsolidation a ns3:ProcessingTask .
+
+ns3:KeyPointAnalysis a ns3:ProcessingTask .
+
+ns3:Knowledge_Power a ns3:PowerRelation .
+
+ns3:LexicalNetwork a ns3:Scenario .
+
+ns3:LiveVideoMonitoringScenario a ns3:Scenario ;
+    ns3:context ns3:LiveVideoStream ;
+    ns3:hasInteraction ns3:OperatorFeedbackInteraction .
+
+ns3:LlmModelExplanation a ns3:Scenario ;
+    ns3:context ns3:UserComprehension ;
+    ns3:domain ns3:ExplainableAI ;
+    ns3:hasEthicalConsideration ns3:IncorrectExplanation,
+        ns3:Trust ;
+    ns3:hasInteraction ns3:PromptBasedInteraction .
+
+ns3:MLClassifier a ns3:InformationProcessing .
+
+ns3:MachineTeaching a ns3:InteractiveML .
+
+ns3:MedicalHarmScenario a ns3:Scenario ;
+    ns3:hasEthicalConsideration ns3:Fabrication .
+
+ns3:Misalignment a ns3:CognitiveEffect .
+
+ns3:MistralModel a ns3:ArtificialAgent .
+
+ns3:Motivation a ns3:Capability .
+
+ns3:MultimodalFeedback a ns3:Feedback .
+
+ns3:MutualBenefitAlignment a ns3:PositiveCoordination .
+
+ns3:Mutual_Dependence a ns3:DependenceRelation .
+
+ns3:Normative_Commitment a ns3:SocialCommitment .
+
+ns3:Obligation_Commitment a ns3:SocialCommitment .
+
+ns3:ObstacleAvoidance a ns3:ProcessingTask .
+
+ns3:Open_Delegation a ns3:Delegation .
+
+ns3:ParadigmaticRelation a ns3:WordAssociation .
+
+ns3:Participants a ns3:Human ;
+    ns3:inScenario ns3:InteractiveMLExperiment .
+
+ns3:ParticipatoryValueEvaluation a ns3:ProcessingMethod .
+
+ns3:PassiveAdaptation a ns3:WeakSocialAction .
+
+ns3:PedagogicSimulation a ns3:Scenario ;
+    ns3:hasInteraction ns3:SimulationBasedInteraction .
+
+ns3:PersonalizationPrivacyTradeoff a ns3:EthicalConsideration .
+
+ns3:Persuasion a ns3:InfluencingAction .
+
+ns3:Persuasive_Action a ns3:InfluencingAction .
+
+ns3:PredictiveAdjustment a ns3:WeakSocialAction .
+
+ns3:ProactiveAssistance a ns3:StrongSocialAction .
+
+ns3:PublicSafety a ns3:Domain .
+
+ns3:Question-Answering a ns3:InteractionTask .
+
+ns3:RealTimeResponse a ns3:ReactiveCoordination .
+
+ns3:Reasoning a ns3:Capability,
+        ns3:ProcessingTask .
+
+ns3:Reciprocal_Commitment a ns3:SocialCommitment .
+
+ns3:Reciprocal_Dependence a ns3:DependenceRelation .
+
+ns3:Recommendation a ns3:Capability,
+        ns3:InfluencingAction,
+        ns3:InteractionTask ;
+    owl:sameAs <http://dbpedia.org/resource/Recommender_system> .
+
+ns3:Resource_Dependence a ns3:DependenceRelation .
+
+ns3:ResponsibilityTransfer a ns3:Delegation .
+
+ns3:SelectiveClassifier a ns3:ArtificialAgent ;
+    ns3:inScenario ns3:ValueAwareActiveLearningScenario ;
+    ns3:processingInformation ns3:ActiveLearningMethod .
+
+ns3:SelfRegulatedLearning a ns3:Capability .
+
+ns3:Selfish_Coordination a ns3:NegativeCoordination,
+        ns3:ReactiveCoordination .
+
+ns3:SharedObjective a ns3:GoalAdoption .
+
+ns3:SituationalAdaptation a ns3:ReactiveCoordination .
+
+ns3:SituationalAwareness a ns3:ProcessingTask .
+
+ns3:Situational_Power a ns3:PowerRelation .
+
+ns3:SmartHome a ns3:Scenario .
+
+ns3:StrategicPlanning a ns3:AnticipatoryCoordination .
+
+ns3:Student a ns3:Human .
+
+ns3:StudentBehaviorModeling a ns3:InformationProcessing .
+
+ns3:StudentSimulator a ns3:ArtificialAgent .
+
+ns3:Suggestion a ns3:InfluencingAction .
+
+ns3:SupportAgent a ns3:ArtificialAgent ;
+    ns3:capability ns3:Adaptiveness,
+        ns3:Communication ;
+    ns3:inScenario ns3:PersonalValueScenario ;
+    ns3:processingInformation ns3:UserModeling .
+
+ns3:SynergisticAction a ns3:PositiveCoordination .
+
+ns3:SyntagmaticRelation a ns3:WordAssociation .
+
+ns3:TaskAssignment a ns3:Delegation,
+        ns3:Scenario ;
+    ns3:domain ns3:Crowdsourcing ;
+    ns3:hasEthicalConsideration ns3:BiasMitigation ;
+    ns3:hasInteraction ns3:CommitteeVoting .
+
+ns3:Task_Dependence a ns3:DependenceRelation .
+
+ns3:Teacher a ns3:Human .
+
+ns3:TeacherSimulator a ns3:ArtificialAgent .
+
+ns3:TeamPerformance a ns3:Scenario .
+
+ns3:TextGeneration a ns3:ProcessingTask .
+
+ns3:TopicAssignment a ns3:ProcessingTask .
+
+ns3:Transforming a ns3:ProcessingTask .
+
+ns3:UAVTeam a ns3:ArtificialAgent ;
+    ns3:inScenario ns3:AdaptivePOMDPScenario .
+
+ns3:Unilateral_Coordination a ns3:NegativeCoordination,
+        ns3:ReactiveCoordination .
+
+ns3:Unilateral_Delegation a ns3:Delegation .
+
+ns3:User2 a ns3:Human ;
+    ns3:inScenario ns3:PersonalValueScenario .
+
+ns3:VerbalExplanationRequest a ns3:ExplanationRequest .
+
+ns3:VirtualRealityTeleoperation a ns3:Scenario ;
+    ns3:context ns3:VirtualLab ;
+    ns3:hasInteraction ns3:Teleoperation .
+
+ns3:Warning a ns3:CommunicationAction .
+
+ns3:WorkloadDistribution a ns3:Delegation .
+
+ns4:RXkgCia5v1alxR8D7bBem3 a ns4:RCTj2GYfzj9eiGHTj3Bx2gN .
+
+ns4:RcBYlApBcbGhmcXc0b6LTz a ns3:InteractionMethod .
+
+ns2:Accountability a ns2:EthicalMetric .
+
+ns2:ActionSuggestion a ns2:InteractionTask .
+
+ns2:AdaptableDecisionBoundary a ns2:InteractionMethod .
+
+ns2:AddExpertData a ns2:Scenario ;
+    ns2:context ns2:ComparedToSelfExploreOnly ;
+    ns2:domain ns2:Gaming .
+
+ns2:AddPositiveFeedback a ns2:Scenario ;
+    ns2:context ns2:ComparedToSelfExploreOnly ;
+    ns2:domain ns2:Gaming ;
+    ns2:hasInteraction ns2:EvaluativeFeedback .
+
+ns2:AlgorithmAppreciation a ns2:UserAttitude .
+
+ns2:AlgorithmAversion a ns2:UserAttitude .
+
+ns2:AssistantAssisting a ns2:Scenario ;
+    ns2:context ns2:IntelligentVirtualAssistants ;
+    ns2:domain ns2:CustomerSupport ;
+    ns2:endgoal ns2:InteractionTimeReduction,
+        ns2:ServiceQualityImprovement .
+
+ns2:Autonomy a ns2:EthicalMetric .
+
+ns2:BalancingStrategy a ns2:ProcessingMethod .
+
+ns2:BestModelMaintenance a ns2:Capability .
+
+ns2:CNN a ns2:ProcessingMethod .
+
+ns2:Cobot a ns2:ArtificialAgent ;
+    ns2:capability ns2:Communication,
+        ns2:VoiceEnabled ;
+    ns2:inScenario ns2:AssistantAssisting ;
+    ns2:processingInformation ns2:UserUtterance .
+
+ns2:CommonGround a ns2:InteractionTask .
+
+ns2:Communication a ns2:Capability .
+
+ns2:Contestability a ns2:DemocraticApproach,
+        ns2:EthicalMetric .
+
+ns2:Cooperation a ns2:Capability .
+
+ns2:Cooperativeness a ns2:Capability .
+
+ns2:CostSensitivity a ns2:EthicalMetric .
+
+ns2:CounterfactualEvaluation a ns2:ProcessingTask .
+
+ns2:CountingGame a ns2:Context .
+
+ns2:CriminalAnalysis a ns2:Scenario ;
+    ns2:domain ns2:Legal ;
+    ns2:endgoal ns2:RecidivismPrediction ;
+    ns2:hasEthicalConsideration ns2:Discrimination .
+
+ns2:CriminalRecords a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:StatisticalSimilarity ;
+    ns2:processingTask ns2:Prediction .
+
+ns2:CrossDevice a ns2:ProcessingMethod .
+
+ns2:CrossSilo a ns2:ProcessingMethod .
+
+ns2:CustomerSupport a ns2:Domain .
+
+ns2:DataDistribution a ns2:Domain .
+
+ns2:DataScientist a ns2:Human .
+
+ns2:DecisionPath a ns2:InteractionMethod .
+
+ns2:DecisionTrees a ns2:ProcessingMethod .
+
+ns2:DeepInteractRL a ns2:ArtificialAgent ;
+    ns2:inScenario ns2:AddPositiveFeedback .
+
+ns2:Discrimination a ns2:EthicalConsideration ;
+    ns2:lacks ns2:Fairness .
+
+ns2:Diversity a ns2:EthicalMetric .
+
+ns2:Eagerness a ns2:Capability .
+
+ns2:EffectOnModelPerFeature a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:GridEvaluation ;
+    ns2:processingTask ns2:Prediction .
+
+ns2:EvaluativeFeedback a ns2:Interaction ;
+    ns2:interactingAgent ns2:DeepInteractRL,
+        ns2:HumanObserver ;
+    ns2:interactionMethod ns2:PositiveReward ;
+    ns2:interactionTask ns2:ImproveAgentLearning .
+
+ns2:Fairness a ns2:EthicalMetric .
+
+ns2:FeatureSpaceNavigator a ns2:ArtificialAgent ;
+    ns2:ensures ns2:Autonomy ;
+    ns2:hasTargetUser ns2:UserLimitTechKnowledge ;
+    ns2:inScenario ns2:CounterfactualScenario ;
+    ns2:processingInformation ns2:EffectOnModelPerFeature .
+
+ns2:FedaratingData a ns2:Scenario ;
+    ns2:context ns2:ModelFairness ;
+    ns2:domain ns2:DataDistribution ;
+    ns2:endgoal ns2:MonitoringFairness .
+
+ns2:FederatedLearning a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:CrossDevice,
+        ns2:CrossSilo ;
+    ns2:processingTask ns2:Learning .
+
+ns2:FinancialMarket a ns2:Domain .
+
+ns2:FormalizingValue a ns2:Endgoal .
+
+ns2:GamePlayer a ns2:ArtificialAgent ;
+    ns2:capability ns2:Cooperation,
+        ns2:Cooperativeness,
+        ns2:Eagerness,
+        ns2:SelfBenefit ;
+    ns2:inScenario ns2:TheGame ;
+    ns2:processingInformation ns2:MutualSelfReflection .
+
+ns2:GlobalExplanation a ns2:Capability .
+
+ns2:GridEvaluation a ns2:ProcessingMethod .
+
+ns2:HealthAnalysis a ns2:Scenario ;
+    ns2:domain ns2:Medical ;
+    ns2:endgoal ns2:OverdosePrediction .
+
+ns2:HumanObserver a ns2:Human .
+
+ns2:HybridIntelligence a ns2:Domain .
+
+ns2:ImageRecognition a ns2:ProcessingTask .
+
+ns2:Images a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:CNN,
+        ns2:DecisionTrees ;
+    ns2:processingTask ns2:ImageRecognition .
+
+ns2:ImproveAgentLearning a ns2:InteractionTask .
+
+ns2:InformationProvision a ns2:InteractionTask .
+
+ns2:IntelligentVirtualAssistants a ns2:Context .
+
+ns2:InteractionTimeReduction a ns2:Endgoal .
+
+ns2:Interpretability a ns2:Endgoal .
+
+ns2:InterpretableImageRecognition a ns2:Context .
+
+ns2:KnowledgeGraphs a ns2:ProcessingMethod .
+
+ns2:Legal a ns2:Domain .
+
+ns2:MLmodel a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:ValueEmbedding ;
+    ns2:processingTask ns2:ValueAnalysis .
+
+ns2:Medical a ns2:Domain .
+
+ns2:ModelFairness a ns2:Context .
+
+ns2:ModifiedFeatures a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:PartialDependencePlot ;
+    ns2:processingTask ns2:CounterfactualGeneration .
+
+ns2:MonitoringFairness a ns2:Endgoal .
+
+ns2:MutualSelfReflection a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:BalancingStrategy ;
+    ns2:processingTask ns2:Learning .
+
+ns2:NaturalLanguageProcessing a ns2:ProcessingMethod .
+
+ns2:NeuralPrototypeTrees a ns2:Scenario ;
+    ns2:context ns2:InterpretableImageRecognition ;
+    ns2:domain ns2:ExplainableAI ;
+    ns2:endgoal ns2:Interpretability .
+
+ns2:OutcomePrediction a ns2:Endgoal .
+
+ns2:OverdosePrediction a ns2:Endgoal .
+
+ns2:PartialDependencePlot a ns2:ProcessingMethod .
+
+ns2:PerceivedRisk a ns2:EthicalMetric ;
+    ns2:influences ns2:PerceivedUsefulness,
+        ns2:UserTrust .
+
+ns2:Plausibility a ns2:EthicalMetric .
+
+ns2:PositiveReward a ns2:InteractionMethod .
+
+ns2:PredictionMarket a ns2:Context .
+
+ns2:PredictionModelFeatures a ns2:InformationProcessing ;
+    ns2:processingTask ns2:CounterfactualEvaluation,
+        ns2:CounterfactualGeneration .
+
+ns2:Prospector a ns2:ArtificialAgent ;
+    ns2:hasTargetUser ns2:DataScientist ;
+    ns2:inScenario ns2:CounterfactualScenario ;
+    ns2:processingInformation ns2:ModifiedFeatures .
+
+ns2:ProtoTree a ns2:ArtificialAgent ;
+    ns2:capability ns2:GlobalExplanation ;
+    ns2:inScenario ns2:NeuralPrototypeTrees ;
+    ns2:processingInformation ns2:Images .
+
+ns2:RecidivismPrediction a ns2:Endgoal .
+
+ns2:SelfBenefit a ns2:Capability .
+
+ns2:ServiceQualityImprovement a ns2:Endgoal .
+
+ns2:Similarity a ns2:EthicalMetric .
+
+ns2:SimulationTheoryOfMind a ns2:InteractionMethod .
+
+ns2:SpeculativeTrading a ns2:Capability .
+
+ns2:SpeechRecognition a ns2:ProcessingTask .
+
+ns2:StatisticalSimilarity a ns2:ProcessingMethod .
+
+ns2:TheGame a ns2:Scenario ;
+    ns2:context ns2:CountingGame ;
+    ns2:domain ns2:Gaming ;
+    ns2:endgoal ns2:AgentCooperation .
+
+ns2:Trader a ns2:Human .
+
+ns2:Trading a ns2:Scenario ;
+    ns2:context ns2:PredictionMarket ;
+    ns2:domain ns2:FinancialMarket ;
+    ns2:endgoal ns2:AgentCooperation,
+        ns2:OutcomePrediction .
+
+ns2:Transparency a ns2:EthicalMetric .
+
+ns2:TrustAnalysis a ns2:Scenario ;
+    ns2:endgoal ns2:AgentCooperation .
+
+ns2:UserEmpowerment a ns2:Endgoal .
+
+ns2:UserUtterance a ns2:InformationProcessing ;
+    ns2:informationMethod ns2:KnowledgeGraphs,
+        ns2:NaturalLanguageProcessing ;
+    ns2:processingTask ns2:SpeechRecognition .
+
+ns2:ValueAnalysis a ns2:ProcessingTask .
+
+ns2:ValueBased a ns2:Scenario ;
+    ns2:domain ns2:HybridIntelligence ;
+    ns2:endgoal ns2:FormalizingValue .
+
+ns2:ValueEmbedding a ns2:ProcessingMethod .
+
+ns2:VoiceEnabled a ns2:Capability .
+
+ns1:AIAssistedDecisionMakingScenario a ns1:Scenario ;
+    ns1:basedOn ns1:AIAssistedDecisionMakingReliance ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance .
+
+ns1:AIInterpretabilityTask a ns1:Task ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:partOf ns1:CaseBasedReasoningScenario .
+
+ns1:AgentCapability a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:influences ns1:InterventionFrequency,
+        ns1:Trust .
+
+ns1:ConsistencyEvaluation a ns1:Evaluation ;
+    ns1:appliesTo ns1:CaseAnalysisTask ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:hasResult ns1:COMPASConsistencyScore .
+
+ns1:ContextualMultiArmedBandit a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:partOf ns1:ReinforcementLearningDementiaCare .
+
+ns1:ContinualLearningLoops a ns1:AI_Concept ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:CostFactor a ns1:AI_Concept .
+
+ns1:DementiaCareSystemEvaluation a ns1:Evaluation ;
+    ns1:appliesTo ns1:EatingReminderTask ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:hasResult ns1:SimulationScore .
+
+ns1:DiaryConstructionTask a ns1:Task ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:partOf ns1:DiaryConstructionScenario .
+
+ns1:EmpathicAI a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:EpisodicKnowledgeGraph a ns1:AI_Concept ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:ExosoulProject a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:GRaSPFramework a ns1:AI_Concept ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:GenerativeDesignAssistant a ns1:AI_Agent ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:performsTask ns1:FloorPlanDesignTask ;
+    ns1:uses ns1:ContinualLearningLoops,
+        ns1:ProgrammableCommonLanguage .
+
+ns1:GoalAlignment a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI .
+
+ns1:HITAM_Evaluation a ns1:Evaluation ;
+    ns1:appliesTo ns1:GenerativeDesignTrainingTask ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:hasResult ns1:PartnershipScore .
+
+ns1:HybridIntelligenceAgent a ns1:AI_Agent ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:performsTask ns1:DiaryConstructionTask,
+        ns1:TimelineReconstructionTask,
+        ns1:WellBeingMonitoringTask ;
+    ns1:uses ns1:EpisodicKnowledgeGraph,
+        ns1:GRaSPFramework,
+        ns1:PerspectiveDrivenIntent,
+        ns1:PropertyDrivenIntent,
+        ns1:SimpleEventModel,
+        ns1:TimelineDrivenIntent .
+
+ns1:Idealism a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:partOf ns1:EthicsPositionTheory ;
+    ns1:positivelyCorrelatedWith ns1:HonestyHumility .
+
+ns1:JITAI_Concept a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:LegalistProfile a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:MDPFormulationConcept a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:RLHumanInLoopPaper ;
+    ns1:influences ns1:RLLearningPhaseConcept .
+
+ns1:MiscalibratedTrust a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:subClassOf ns1:Trust .
+
+ns1:NavigationAI a ns1:AI_Agent ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:performsTask ns1:NavigationTask ;
+    ns1:uses ns1:AgentCapability .
+
+ns1:OpportunistProfile a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors> ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:influences ns1:CopyrightInfringement,
+        ns1:PrivacyViolation ;
+    ns1:prevents ns1:Caution .
+
+ns1:PerceivedPartnership a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors> ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:PerspectiveDrivenIntent a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:ProgrammableCommonLanguage a ns1:AI_Concept ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:PropertyDrivenIntent a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:RLDeploymentDecisionConcept a ns1:AI_Concept ;
+    ns1:describedIn ns1:RLHumanInLoopPaper ;
+    ns1:influences ns1:RLSystemMaintenanceConcept .
+
+ns1:RLLearningPhaseConcept a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:RLHumanInLoopPaper ;
+    ns1:influences ns1:RLDeploymentDecisionConcept .
+
+ns1:RLOptimizationTask a ns1:Task ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:partOf ns1:DementiaCareScenario .
+
+ns1:RLSystemMaintenanceConcept a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:RLHumanInLoopPaper .
+
+ns1:Relativism a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:negativelyCorrelatedWith ns1:HonestyHumility ;
+    ns1:partOf ns1:EthicsPositionTheory .
+
+ns1:SensibleProfile a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors> ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:SignalCombinations a ns1:AI_Concept ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:SimpleEventModel a ns1:AI_Concept ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:TimelineDrivenIntent a ns1:AI_Concept ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:TimelineReconstructionTask a ns1:Task ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:partOf ns1:DiaryConstructionScenario .
+
+ns1:TrustInClinicalAI a ns1:ResearchPaper .
+
+ns1:TrustInterventionsScenario a ns1:Scenario ;
+    ns1:basedOn ns1:TrustInterventionsHumanAI ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI .
+
+ns1:UserControl a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors> ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:positivelyCorrelatedWith ns1:PerceivedPartnership .
+
+ns1:VirtuousProfile a <http://www.co-ode.org/ontologies/ont.owl#AI_Human_Factors> ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling ;
+    ns1:influences ns1:Caution ;
+    ns1:prevents ns1:CopyrightInfringement,
+        ns1:PrivacyViolation .
+
+ns1:WellBeingMonitoringTask a ns1:Task ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:partOf ns1:DiaryConstructionScenario .
+
+ns1:WhoTakesCareAI a ns1:AI_Agent ;
+    ns1:achievesScore ns1:SimulationScore ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:evaluatedWith ns1:DementiaCareSystemEvaluation ;
+    ns1:performsTask ns1:EatingReminderTask,
+        ns1:RLOptimizationTask ;
+    ns1:uses ns1:ContextualMultiArmedBandit,
+        ns1:EmpathicAI,
+        ns1:JITAI_Concept,
+        ns1:ReinforcementLearningDementiaCare,
+        ns1:SignalCombinations .
+
+ns3:AIUserInteraction a ns3:Interaction ;
+    ns3:interactionTask ns3:ValueImpact .
+
+ns3:ARInformationPresentation a ns3:InteractionMethod .
+
+ns3:AcademicResearch a ns3:Context .
+
+ns3:AcademicWriting a ns3:ProcessingTask .
+
+ns3:ActiveLearningMethod a ns3:ProcessingMethod .
+
+ns3:Adaptiveness a ns3:Capability .
+
+ns3:AlignmentDialogue a ns3:InteractionMethod .
+
+ns3:Annotation a ns3:InteractionTask .
+
+ns3:AnnotationTask a ns3:Interaction ;
+    ns3:interactionTask ns3:Annotation .
+
+ns3:BiasMitigation a ns3:EthicalConsideration .
+
+ns3:Collaboration-based a ns3:InteractionMethod .
+
+ns3:Collaborativeness a ns3:Capability .
+
+ns3:CommitteeVoting a ns3:InteractionMethod .
+
+ns3:ConcretenessEffect a ns3:CognitiveEffect .
+
+ns3:Contribution-based a ns3:InteractionMethod .
+
+ns3:CopyrightInfringement a ns3:EthicalConsideration .
+
+ns3:Crowdsourcing a ns3:Domain .
+
+ns3:DataSafety a ns3:EthicalConsideration .
+
+ns3:DementiaUser a ns3:Human ;
+    ns3:inScenario ns3:DementiaCareScenario .
+
+ns3:DigitalEthics a ns3:Domain .
+
+ns3:DigitalWorld a ns3:Context .
+
+ns3:ECGMonitoring a ns3:ProcessingTask .
+
+ns3:ErrorCostAnalysis a ns3:EthicalConsideration .
+
+ns3:EthicalProfiling a ns3:ProcessingTask .
+
+ns3:ExplainableAI a ns3:Domain,
+        ns3:ProcessingMethod .
+
+ns3:ExplanationGeneration a ns3:Capability .
+
+ns3:Fabrication a ns3:EthicalConsideration .
+
+ns3:GenderBias a ns3:Bias,
+        ns3:EthicalConsideration .
+
+ns3:GoalConflict a ns3:EthicalConsideration .
+
+ns3:Healthcare a ns3:Domain .
+
+ns3:HigherEducation a ns3:Domain .
+
+ns3:HumanFeedback a ns3:Feedback .
+
+ns3:HybridIntelligenceInteraction a ns3:Interaction .
+
+ns3:IncorrectExplanation a ns3:EthicalConsideration .
+
+ns3:InformationTransfer a ns3:ProcessingTask .
+
+ns3:InteractiveMLExperiment a ns3:Scenario ;
+    ns3:hasInteraction ns3:AnnotationInteraction,
+        ns3:AnnotationTask .
+
+ns3:InterventionRLModule a ns3:InformationProcessing ;
+    ns3:informationMethod ns3:ReinforcementLearning ;
+    ns3:processingTask ns3:PersonalizedIntervention .
+
+ns3:LawEnforcement a ns3:Domain .
+
+ns3:Learning a ns3:ProcessingTask .
+
+ns3:LiveVideoStream a ns3:Context .
+
+ns3:MediatedInteraction a ns3:InteractionMethod .
+
+ns3:MissionPhase a ns3:Context .
+
+ns3:Multimodal a ns3:InteractionMethod .
+
+ns3:NaturalLanguageExplanationGeneration a ns3:ProcessingTask .
+
+ns3:Neuro-symbolic a ns3:ProcessingMethod .
+
+ns3:Non-cooperative a ns3:InteractionMethod .
+
+ns3:Nudging a ns3:Interaction ;
+    ns3:interactingAgent ns3:DementiaUser,
+        ns3:WhoTakesCareSystem ;
+    ns3:interactionTask ns3:PersonalizedIntervention .
+
+ns3:OperatorFeedbackInteraction a ns3:Interaction .
+
+ns3:POMPDModel a ns3:InformationProcessing ;
+    ns3:processingTask ns3:ECGMonitoring .
+
+ns3:PersonalWellbeing a ns3:Context .
+
+ns3:PrivacyConcerns a ns3:EthicalConsideration .
+
+ns3:PrivacyViolation a ns3:EthicalConsideration .
+
+ns3:QualityImprovement a ns3:Endgoal .
+
+ns3:ReinforcementLearning a ns3:ProcessingMethod .
+
+ns3:Responsibility a ns3:Capability .
+
+ns3:Robot a ns3:ArtificialAgent,
+        owl:Class ;
+    rdfs:subClassOf ns3:ArtificialAgent .
+
+ns3:SimulationBasedInteraction a ns3:Interaction .
+
+ns3:Single-agent a ns3:InteractionMethod .
+
+ns3:SituationalAwarenessEnhancement a ns3:ProcessingTask .
+
+ns3:SocialSituation a ns3:Context .
+
+ns3:Statistical a ns3:ProcessingMethod .
+
+ns3:Symbolic a ns3:ProcessingMethod .
+
+ns3:TacticalIntervention a ns3:Context .
+
+ns3:TacticalPlanning a ns3:ProcessingTask .
+
+ns3:TaskAllocation a ns3:InteractionTask,
+        ns3:ProcessingTask .
+
+ns3:Teleoperation a ns3:Interaction,
+        ns3:InteractionMethod .
+
+ns3:TrainingInteraction a ns3:Interaction .
+
+ns3:Transparency a ns3:Capability .
+
+ns3:Trust a ns3:EthicalConsideration .
+
+ns3:TrustFactor1 a ns3:EthicalConsideration .
+
+ns3:TrustFactor2 a ns3:EthicalConsideration .
+
+ns3:UAVInteraction a ns3:Interaction .
+
+ns3:UserComprehension a ns3:Context .
+
+ns3:UserExplanationNeed a ns3:Context .
+
+ns3:UserModeling a ns3:ProcessingTask .
+
+ns3:ValueAwareActiveLearningScenario a ns3:Scenario ;
+    ns3:hasEthicalConsideration ns3:ErrorCostAnalysis ;
+    ns3:hasInteraction ns3:TrainingInteraction .
+
+ns3:ValueImpact a ns3:InteractionTask .
+
+ns3:ValueMetric a ns3:ProcessingTask .
+
+ns3:VirtualLab a ns3:VirtualEnvironment .
+
+ns3:WhoTakesCareSystem a ns3:ArtificialAgent ;
+    ns3:inScenario ns3:DementiaCareScenario ;
+    ns3:processingInformation ns3:InterventionRLModule .
+
+ns4:R7WivB5O3CgSGkUWI5zHduF a ns3:Domain ;
+    ns3:domain ns4:R7WivB5O3CgSGkUWI5zHduF .
+
+ns2:ComparedToSelfExploreOnly a ns2:Context .
+
+ns2:CounterfactualGeneration a ns2:ProcessingTask .
+
+ns2:ExplainableAI a ns2:Domain .
+
+ns2:FeatureExploration a ns2:InteractionMethod .
+
+ns2:Learning a ns2:ProcessingTask .
+
+ns2:Prediction a ns2:ProcessingTask .
+
+ns2:UserLimitTechKnowledge a ns2:Human .
+
+ns2:UserTrust a ns2:EthicalMetric ;
+    ns2:influences ns2:PerceivedUsefulness .
+
+ns1:COMPASConsistencyScore a ns1:Score .
+
+ns1:CaseAnalysisTask a ns1:Task ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:partOf ns1:CaseBasedReasoningScenario .
+
+ns1:CaseBasedReasoningScenario a ns1:Scenario ;
+    ns1:basedOn ns1:LandmarksCaseBasedReasoning ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning .
+
+ns1:Caution a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:CopyrightInfringement a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:DementiaCareScenario a ns1:Scenario ;
+    ns1:basedOn ns1:HumanCenteredAIDementiaCare ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:EatingReminderTask a ns1:Task ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare ;
+    ns1:partOf ns1:DementiaCareScenario .
+
+ns1:EthicalProfilingScenario a ns1:Scenario ;
+    ns1:basedOn ns1:ExosoulEthicalProfiling ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:FloorPlanDesignTask a ns1:Task ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:partOf ns1:GenerativeDesignTrainingScenario .
+
+ns1:GenerativeDesignTrainingScenario a ns1:Scenario ;
+    ns1:basedOn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign .
+
+ns1:GenerativeDesignTrainingTask a ns1:Task ;
+    ns1:describedIn ns1:HybridIntelligenceGenerativeDesign ;
+    ns1:partOf ns1:GenerativeDesignTrainingScenario .
+
+ns1:HonestyHumility a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:Intervention a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI .
+
+ns1:LandmarkCases a ns1:AI_Concept ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning ;
+    ns1:relatedTo ns1:PrecedentialConstraint .
+
+ns1:PartnershipScore a ns1:Score .
+
+ns1:PrivacyViolation a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:RLHumanInLoopScenario a ns1:Scenario ;
+    ns1:basedOn ns1:RLHumanInLoopPaper ;
+    ns1:describedIn ns1:RLHumanInLoopPaper .
+
+ns1:SimulationScore a ns1:Score .
+
+ns3:AdaptivePOMDPScenario a ns3:Scenario ;
+    ns3:context ns3:MissionPhase ;
+    ns3:hasInteraction ns3:UAVInteraction .
+
+ns3:Communication a ns3:Capability .
+
+ns3:HumanAIDevelopmentScenario a ns3:Scenario ;
+    ns3:hasEthicalConsideration ns3:TrustFactor1,
+        ns3:TrustFactor2 .
+
+ns3:IdentifyEvent a ns3:AllocatedTask .
+
+ns3:IdentifyLandmark a ns3:AllocatedTask .
+
+ns3:IdentifyLanguage a ns3:AllocatedTask .
+
+ns3:PersonalValueScenario a ns3:Scenario ;
+    ns3:context ns3:SocialSituation ;
+    ns3:hasInteraction ns3:AIUserInteraction .
+
+ns3:PersonalizedIntervention a ns3:InteractionTask .
+
+ns3:PromptBasedInteraction a ns3:InteractionMethod .
+
+ns3:SolveWordGrid a ns3:AllocatedTask .
+
+ns3:ValueBasedHybridScenario a ns3:Scenario ;
+    ns3:hasInteraction ns3:HybridIntelligenceInteraction .
+
+ns2:AgentCooperation a ns2:Endgoal .
+
+ns2:FeatureExplainability a ns2:InteractionTask .
+
+ns2:Gaming a ns2:Domain .
+
+ns2:PerceivedUsefulness a ns2:EthicalMetric .
+
+ns1:NavigationTask a ns1:Task ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:partOf ns1:TrustInterventionsScenario .
+
+ns1:RejectionThreshold a <http://www.co-ode.org/ontologies/ont.owl#AI_Optimization_Sampling> .
+
+ns1:Reliances_Behavior a ns1:AI_Concept ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance .
+
+ns3:DementiaCareScenario a ns3:Scenario ;
+    ns3:hasInteraction ns3:Nudging .
+
+ns2:CounterfactualScenario a ns2:Scenario ;
+    ns2:domain ns2:ExplainableAI ;
+    ns2:endgoal ns2:UserEmpowerment .
+
+ns1:AIAssistedDecisionMakingTask a ns1:Task ;
+    ns1:describedIn ns1:AIAssistedDecisionMakingReliance ;
+    ns1:partOf ns1:AIAssistedDecisionMakingScenario .
+
+ns1:InterventionFrequency a ns1:AI_Concept ;
+    ns1:describedIn ns1:TrustInterventionsHumanAI ;
+    ns1:measuredIn ns1:NavigationTask ;
+    ns1:negativelyCorrelatedWith ns1:Trust ;
+    ns1:partOf ns1:Intervention .
+
+ns1:ReinforcementLearningDementiaCare a <http://www.co-ode.org/ontologies/ont.owl#AI_Decision_Learning> ;
+    ns1:describedIn ns1:HumanCenteredAIDementiaCare .
+
+ns1:PrecedentialConstraint a ns1:AI_Concept ;
+    ns1:describedIn ns1:LandmarksCaseBasedReasoning .
+
+ns1:ValueAwareActiveLearning a ns1:ResearchPaper .
+
+ns1:DiaryConstructionScenario a ns1:Scenario ;
+    ns1:basedOn ns1:ConversationalAgentDiaryConstruction ;
+    ns1:describedIn ns1:ConversationalAgentDiaryConstruction .
+
+ns1:EthicsPositionTheory a ns1:AI_Concept ;
+    ns1:describedIn ns1:ExosoulEthicalProfiling .
+
+ns1:ValueAwareActiveLearningScenario a ns1:Scenario ;
+    ns1:basedOn ns1:ValueAwareActiveLearning .
+
+ns1:NeuralNetworkVisualizationScenario a ns1:Scenario ;
+    ns1:basedOn ns1:TopographicActivationMaps .
+
+ns1:TopographicActivationMaps a ns1:AI_Concept,
+        ns1:ResearchPaper ;
+    ns1:partOf ns1:NeuralNetworkVisualizationScenario .
+
+ns1:AIAssistedDecisionMakingReliance a ns1:ResearchPaper .
+
+ns1:LandmarksCaseBasedReasoning a ns1:ResearchPaper .
+
+ns1:RLHumanInLoopPaper a ns1:ResearchPaper .
+
+ns1:HybridIntelligenceGenerativeDesign a ns1:ResearchPaper .
+
+ns1:TrustInterventionsHumanAI a ns1:ResearchPaper .
+
+ns1:ConversationalAgentDiaryConstruction a ns1:ResearchPaper .
+
+ns1:HumanCenteredAIDementiaCare a ns1:ResearchPaper .
+
+ns1:Trust a <http://www.co-ode.org/ontologies/ont.owl#AI_Trust_Ethics> .
+
+ns1:ExosoulEthicalProfiling a ns1:ResearchPaper .
+
