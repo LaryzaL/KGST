@@ -19,3 +19,5 @@ For this project, we had to expand a provided ontology in the domain of Hybrid I
 16) Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
 17) MiniCoDe Workshops. Minimise Algorithmic Bias in Collaborative Decision Making with Design Fiction
 18) POMDP-Based Adaptive Interaction Through Physiological Computing
+
+Based on extensive data analysis of the extended ontology, we propose a new method to restructure and refine ontologies. 
